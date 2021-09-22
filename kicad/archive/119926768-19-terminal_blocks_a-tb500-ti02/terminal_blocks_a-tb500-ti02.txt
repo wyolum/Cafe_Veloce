@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-27072010-065719";"";
+"REFERENCE";"A-TB500-TI02";"";
+"TraceParts.ClassPath";"";"";
+"TraceParts.PartVersion";"1.2.1";"";
+"TraceParts.InstanceId";"10-27072010-0657198KGR251ZC0D3GOUSRVH4TMY9H";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartTitle";"Terminal Blocks, with screw lift, straight, alignable, pitch 5.00mm / 7.50mm";"";
+"SUPPLIER";"ASSMANN WSW components";"";
+"DESIGN";"Terminal Blocks, with screw lift, straight, alignable, pitch 500 - 5.00mm, No. contacts: 2";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
