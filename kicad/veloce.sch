@@ -13,17 +13,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 2425 700  0    40   ~ 0
+Text Label 3025 700  0    40   ~ 0
 72V
-Text Label 2425 800  0    40   ~ 0
+Text Label 3025 1900 0    40   ~ 0
 GND
-Text Label 2425 1300 0    40   ~ 0
+Text Label 3025 1000 0    40   ~ 0
 12V
 Wire Wire Line
-	3525 2350 3250 2350
-Text Label 2525 1700 2    40   ~ 0
+	1050 4450 775  4450
+Text Label 3025 1200 0    40   ~ 0
 5V
-Text Label 2425 1500 0    40   ~ 0
+Text Label 3025 1100 0    40   ~ 0
 12V
 Wire Wire Line
 	8250 1425 8250 1675
@@ -40,75 +40,75 @@ Text Label 7150 775  0    40   ~ 0
 Text Label 7150 1275 0    40   ~ 0
 OUT1
 Wire Wire Line
-	1600 7000 1650 7000
+	1250 7000 1300 7000
 Wire Wire Line
-	1650 7000 1650 6675
+	1300 7000 1300 6675
 Wire Wire Line
-	1650 6675 2400 6675
+	1300 6675 2050 6675
 Wire Wire Line
-	2350 7000 2400 7000
+	2000 7000 2050 7000
 Wire Wire Line
-	2400 7000 2400 6675
-Connection ~ 2400 6675
+	2050 7000 2050 6675
+Connection ~ 2050 6675
 Wire Wire Line
-	2400 6675 2575 6675
-NoConn ~ 2350 7200
-NoConn ~ 2350 7300
-NoConn ~ 1600 7200
-NoConn ~ 1600 7300
+	2050 6675 2225 6675
+NoConn ~ 2000 7200
+NoConn ~ 2000 7300
+NoConn ~ 1250 7200
+NoConn ~ 1250 7300
 Wire Wire Line
-	1200 7600 1200 7650
+	850  7600 850  7650
 Wire Wire Line
-	1200 7650 1300 7650
+	850  7650 950  7650
 Wire Wire Line
-	1300 7600 1300 7650
-Connection ~ 1300 7650
+	950  7600 950  7650
+Connection ~ 950  7650
 Wire Wire Line
-	1300 7650 1950 7650
+	950  7650 1600 7650
 Wire Wire Line
-	1950 7600 1950 7650
-Connection ~ 1950 7650
+	1600 7600 1600 7650
+Connection ~ 1600 7650
 Wire Wire Line
-	1950 7650 2050 7650
+	1600 7650 1700 7650
 Wire Wire Line
-	2050 7600 2050 7650
-Connection ~ 2050 7650
+	1700 7600 1700 7650
+Connection ~ 1700 7650
 Wire Wire Line
-	2050 7650 2575 7650
+	1700 7650 2225 7650
 Wire Wire Line
-	4400 6100 4450 6100
+	3725 6100 3775 6100
 Wire Wire Line
-	6125 6100 6175 6100
-NoConn ~ 4400 6600
-NoConn ~ 4400 6700
-NoConn ~ 4400 6800
-NoConn ~ 4400 6900
-NoConn ~ 6125 6900
-NoConn ~ 6125 6800
-NoConn ~ 6125 6700
-NoConn ~ 6125 6600
+	5450 6100 5500 6100
+NoConn ~ 3725 6600
+NoConn ~ 3725 6700
+NoConn ~ 3725 6800
+NoConn ~ 3725 6900
+NoConn ~ 5450 6900
+NoConn ~ 5450 6800
+NoConn ~ 5450 6700
+NoConn ~ 5450 6600
 Wire Wire Line
-	3500 7600 3500 7650
+	2825 7600 2825 7650
 Wire Wire Line
-	3500 7650 3800 7650
+	2825 7650 3125 7650
 Wire Wire Line
-	3800 7600 3800 7650
-Connection ~ 3800 7650
+	3125 7600 3125 7650
+Connection ~ 3125 7650
 Wire Wire Line
-	3800 7650 5225 7650
+	3125 7650 4550 7650
 Wire Wire Line
-	5225 7600 5225 7650
-Connection ~ 5225 7650
+	4550 7600 4550 7650
+Connection ~ 4550 7650
 Wire Wire Line
-	5225 7650 5525 7650
+	4550 7650 4850 7650
 Wire Wire Line
-	5525 7600 5525 7650
-Connection ~ 5525 7650
+	4850 7600 4850 7650
+Connection ~ 4850 7650
 Wire Wire Line
-	5525 7650 6675 7650
-Text Label 2575 6675 0    40   ~ 0
+	4850 7650 6000 7650
+Text Label 2225 6675 0    40   ~ 0
 5V
-Text Label 2575 7650 0    40   ~ 0
+Text Label 2225 7650 0    40   ~ 0
 GND
 Wire Wire Line
 	7900 1275 7950 1275
@@ -481,467 +481,251 @@ Low Power Output, safe up to 0.5 Amps
 Text Notes 9175 5850 0    50   ~ 0
 Low Power Output, safe up to 0.5 Amps
 Wire Wire Line
-	4400 6300 4600 6300
+	3725 6300 3925 6300
 Wire Wire Line
-	4600 6300 4600 6225
+	3925 6300 3925 6225
 Wire Wire Line
-	4400 6400 4800 6400
+	3725 6400 4125 6400
 Wire Wire Line
-	4800 6400 4800 6225
+	4125 6400 4125 6225
 Wire Wire Line
-	6125 6300 6325 6300
+	5450 6300 5650 6300
 Wire Wire Line
-	6325 6300 6325 6225
+	5650 6300 5650 6225
 Wire Wire Line
-	6125 6400 6525 6400
+	5450 6400 5850 6400
 Wire Wire Line
-	6525 6400 6525 6225
+	5850 6400 5850 6225
 Wire Wire Line
-	4450 6100 4450 5800
+	3775 6100 3775 5800
 Wire Wire Line
-	4450 5800 4600 5800
+	3775 5800 3925 5800
 Wire Wire Line
-	6325 5925 6325 5800
-Connection ~ 6325 5800
+	5650 5925 5650 5800
+Connection ~ 5650 5800
 Wire Wire Line
-	6325 5800 6525 5800
+	5650 5800 5850 5800
 Wire Wire Line
-	6525 5925 6525 5800
-Connection ~ 6525 5800
+	5850 5925 5850 5800
+Connection ~ 5850 5800
 Wire Wire Line
-	6525 5800 6675 5800
+	5850 5800 6000 5800
 Wire Wire Line
-	6175 6100 6175 5800
-Connection ~ 6175 5800
+	5500 6100 5500 5800
+Connection ~ 5500 5800
 Wire Wire Line
-	6175 5800 6325 5800
-Text Label 6675 7650 0    40   ~ 0
+	5500 5800 5650 5800
+Text Label 6000 7650 0    40   ~ 0
 GND
-Text Label 6675 5800 0    40   ~ 0
+Text Label 6000 5800 0    40   ~ 0
 5V
 Wire Wire Line
-	4600 5925 4600 5800
-Connection ~ 4600 5800
+	3925 5925 3925 5800
+Connection ~ 3925 5800
 Wire Wire Line
-	4600 5800 4800 5800
+	3925 5800 4125 5800
 Wire Wire Line
-	4800 5925 4800 5800
-Connection ~ 4800 5800
+	4125 5925 4125 5800
+Connection ~ 4125 5800
 Wire Wire Line
-	4800 5800 6175 5800
-NoConn ~ 4400 7200
-NoConn ~ 4400 7300
-NoConn ~ 6125 7200
-NoConn ~ 6125 7300
-Text Notes 6825 6375 0    50   ~ 10
+	4125 5800 5500 5800
+NoConn ~ 3725 7200
+NoConn ~ 3725 7300
+NoConn ~ 5450 7200
+NoConn ~ 5450 7300
+Text Notes 6150 6375 0    50   ~ 10
 NOTE :\nCC Rp Resistors\nFor 5V/1.5A, use 22k\nFor 5V/3.0A, use 10k
-Text Label 3250 1450 0    40   ~ 0
+Text Label 775  3550 0    40   ~ 0
 OUT1
-Text Label 3250 1550 0    40   ~ 0
+Text Label 775  3650 0    40   ~ 0
 OUT2
-Text Label 3250 1650 0    40   ~ 0
+Text Label 775  3750 0    40   ~ 0
 OUT3
-Text Label 3250 1750 0    40   ~ 0
+Text Label 775  3850 0    40   ~ 0
 OUT4
-Text Label 3250 1850 0    40   ~ 0
+Text Label 775  3950 0    40   ~ 0
 OUT5
-Text Label 3250 1950 0    40   ~ 0
+Text Label 775  4050 0    40   ~ 0
 OUT6
-Text Label 3250 2050 0    40   ~ 0
+Text Label 775  4150 0    40   ~ 0
 OUT7
-Text Label 3250 2150 0    40   ~ 0
+Text Label 775  4250 0    40   ~ 0
 OUT8
-Text Label 2425 1100 0    40   ~ 0
+Text Label 3025 900  0    40   ~ 0
 72V
-Text Label 2425 1200 0    40   ~ 0
+Text Label 3025 1500 0    40   ~ 0
 GND
-Text Label 2425 1400 0    40   ~ 0
+Text Label 3025 1400 0    40   ~ 0
 GND
-Text Label 2425 1600 0    40   ~ 0
+Text Label 3025 1600 0    40   ~ 0
 GND
-Text Label 2425 1800 0    40   ~ 0
+Text Label 3025 1800 0    40   ~ 0
 GND
-Wire Wire Line
-	2625 1100 2375 1100
-Wire Wire Line
-	2375 1300 2625 1300
-Wire Wire Line
-	2625 1300 2625 1500
-Wire Wire Line
-	2625 1500 2375 1500
-Wire Wire Line
-	2725 1800 2375 1800
-Wire Wire Line
-	2375 1600 2725 1600
-Connection ~ 2725 1600
-Wire Wire Line
-	2725 1600 2725 1800
-Wire Wire Line
-	2375 1400 2725 1400
-Connection ~ 2725 1400
-Wire Wire Line
-	2725 1400 2725 1600
-Wire Wire Line
-	2375 1200 2725 1200
-Wire Wire Line
-	2725 1200 2725 1400
-Text Label 3250 2350 0    40   ~ 0
+Text Label 775  4450 0    40   ~ 0
 GND
-Wire Wire Line
-	2725 1800 2725 2000
-Connection ~ 2725 1800
-Text Label 4900 2150 2    40   ~ 0
+Text Label 2425 4250 2    40   ~ 0
 BRAKE
-Text Label 2425 2000 0    40   ~ 0
+Text Label 3025 2000 0    40   ~ 0
 GND
 Wire Wire Line
-	2375 2000 2725 2000
-Connection ~ 2725 2000
-Wire Wire Line
-	2725 2000 2725 2200
-Wire Wire Line
-	2375 2100 2575 2100
-Text Label 2575 2100 2    40   ~ 0
+	2975 2200 3175 2200
+Text Label 3175 2200 2    40   ~ 0
 BRAKE
-Connection ~ 1650 6675
-Wire Wire Line
-	2375 700  2625 700 
-Wire Wire Line
-	2725 1200 2725 1000
-Connection ~ 2725 1200
-Wire Wire Line
-	2375 1000 2725 1000
-Connection ~ 2725 1000
-Wire Wire Line
-	2625 700  2625 900 
-Wire Wire Line
-	2375 900  2625 900 
-Connection ~ 2625 900 
-Wire Wire Line
-	2625 900  2625 1100
-Wire Wire Line
-	2375 800  2725 800 
-Wire Wire Line
-	2725 800  2725 1000
-Text Label 2425 900  0    40   ~ 0
+Connection ~ 1300 6675
+Text Label 3025 800  0    40   ~ 0
 72V
-Text Label 2425 1000 0    40   ~ 0
+Text Label 3025 1700 0    40   ~ 0
 GND
 Wire Wire Line
-	4725 2350 5000 2350
+	2250 4450 2525 4450
 Wire Wire Line
-	2375 2200 2725 2200
-Wire Wire Line
-	2625 1700 2625 1900
-Wire Wire Line
-	2625 1900 2375 1900
-Wire Wire Line
-	2375 1700 2625 1700
-Text Label 2525 1900 2    40   ~ 0
+	2975 2100 3200 2100
+Text Label 3025 1300 0    40   ~ 0
 5V
-Text Label 2425 2200 0    40   ~ 0
+Text Label 3025 2100 0    40   ~ 0
 GND
 $Comp
 L veloce:Screw_Terminal_01x02 J9
 U 1 1 617B0E01
-P 2175 700
-F 0 "J9" H 2375 700 50  0000 L CNB
-F 1 "BAT" H 2375 600 40  0000 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2175 700 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/691137710002.pdf" H 2175 700 50  0001 C CNN
-F 4 "[+]" H 2225 700 40  0000 L CNB "Field4"
-F 5 "[-]" H 2225 600 40  0000 L CNB "Field5"
-F 6 "691137710002" H 2175 700 50  0001 C CNN "PN"
-	1    2175 700 
+P 2775 700
+F 0 "J9" H 2850 700 50  0000 L CNB
+F 1 "PWR" H 2975 600 40  0001 L CNN
+F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 700 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/691137710002.pdf" H 2775 700 50  0001 C CNN
+F 4 "691137710002" H 2775 700 50  0001 C CNN "PN"
+	1    2775 700 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L veloce:Screw_Terminal_01x02 J10
 U 1 1 617D3132
-P 2175 900
-F 0 "J10" H 2375 900 50  0000 L CNB
-F 1 "BAT" H 2375 800 40  0000 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2175 900 50  0001 C CNN
-F 3 "~" H 2175 900 50  0001 C CNN
-F 4 "[+]" H 2225 900 40  0000 L CNB "Field4"
-F 5 "[-]" H 2225 800 40  0000 L CNB "Field5"
-	1    2175 900 
+P 2775 900
+F 0 "J10" H 2850 900 50  0000 L CNB
+F 1 "PWR" H 2975 800 40  0001 L CNN
+F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 900 50  0001 C CNN
+F 3 "~" H 2775 900 50  0001 C CNN
+	1    2775 900 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L veloce:Screw_Terminal_01x02 J16
 U 1 1 614A67B5
-P 2175 2100
-F 0 "J16" H 2375 2100 50  0000 L CNB
-F 1 "Brake" H 2375 2000 40  0000 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2175 2100 50  0001 C CNN
-F 3 "~" H 2175 2100 50  0001 C CNN
-F 4 "[+]" H 2225 2100 40  0000 L CNB "Field4"
-F 5 "[-]" H 2225 2000 40  0000 L CNB "Field5"
-	1    2175 2100
+P 2775 2100
+F 0 "J16" H 2850 2100 50  0000 L CNB
+F 1 "Brake" H 3275 2025 40  0000 L CNN
+F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 2100 50  0001 C CNN
+F 3 "~" H 2775 2100 50  0001 C CNN
+	1    2775 2100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L veloce:Screw_Terminal_01x02 J15
 U 1 1 614A5EE9
-P 2175 1900
-F 0 "J15" H 2375 1900 50  0000 L CNB
-F 1 "5Vout" H 2375 1800 40  0000 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2175 1900 50  0001 C CNN
-F 3 "~" H 2175 1900 50  0001 C CNN
-F 4 "[+]" H 2225 1900 40  0000 L CNB "Field4"
-F 5 "[-]" H 2225 1800 40  0000 L CNB "Field5"
-	1    2175 1900
+P 2775 1900
+F 0 "J15" H 2850 1900 50  0000 L CNB
+F 1 "PWR" H 2975 1800 40  0001 L CNN
+F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 1900 50  0001 C CNN
+F 3 "~" H 2775 1900 50  0001 C CNN
+	1    2775 1900
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 61B35814
-P 1650 6675
-F 0 "#FLG0101" H 1650 6750 50  0001 C CNN
-F 1 "PWR_FLAG" H 1675 6900 50  0001 C CNN
-F 2 "" H 1650 6675 50  0001 C CNN
-F 3 "~" H 1650 6675 50  0001 C CNN
-	1    1650 6675
+P 1300 6675
+F 0 "#FLG0101" H 1300 6750 50  0001 C CNN
+F 1 "PWR_FLAG" H 1325 6900 50  0001 C CNN
+F 2 "" H 1300 6675 50  0001 C CNN
+F 3 "~" H 1300 6675 50  0001 C CNN
+	1    1300 6675
 	1    0    0    -1  
 $EndComp
 $Comp
 L veloce:Screw_Terminal_01x02 J14
 U 1 1 61B0998B
-P 2175 1700
-F 0 "J14" H 2375 1700 50  0000 L CNB
-F 1 "LVBout" H 2375 1600 40  0000 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2175 1700 50  0001 C CNN
-F 3 "~" H 2175 1700 50  0001 C CNN
-F 4 "[+]" H 2225 1700 40  0000 L CNB "Field4"
-F 5 "[-]" H 2225 1600 40  0000 L CNB "Field5"
-	1    2175 1700
+P 2775 1700
+F 0 "J14" H 2850 1700 50  0000 L CNB
+F 1 "PWR" H 2975 1600 40  0001 L CNN
+F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 1700 50  0001 C CNN
+F 3 "~" H 2775 1700 50  0001 C CNN
+	1    2775 1700
 	-1   0    0    -1  
 $EndComp
 $Comp
 L veloce:Screw_Terminal_01x02 J13
 U 1 1 617E33B9
-P 2175 1500
-F 0 "J13" H 2375 1500 50  0000 L CNB
-F 1 "LVBin" H 2375 1400 40  0000 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2175 1500 50  0001 C CNN
-F 3 "~" H 2175 1500 50  0001 C CNN
-F 4 "[+]" H 2225 1500 40  0000 L CNB "Field4"
-F 5 "[-]" H 2225 1400 40  0000 L CNB "Field5"
-	1    2175 1500
+P 2775 1500
+F 0 "J13" H 2850 1500 50  0000 L CNB
+F 1 "PWR" H 2975 1400 40  0001 L CNN
+F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 1500 50  0001 C CNN
+F 3 "~" H 2775 1500 50  0001 C CNN
+	1    2775 1500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L veloce:Screw_Terminal_01x02 J12
 U 1 1 617E2E21
-P 2175 1300
-F 0 "J12" H 2375 1300 50  0000 L CNB
-F 1 "HVBout" H 2375 1200 40  0000 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2175 1300 50  0001 C CNN
-F 3 "~" H 2175 1300 50  0001 C CNN
-F 4 "[+]" H 2225 1300 40  0000 L CNB "Field4"
-F 5 "[-]" H 2225 1200 40  0000 L CNB "Field5"
-	1    2175 1300
+P 2775 1300
+F 0 "J12" H 2850 1300 50  0000 L CNB
+F 1 "PWR" H 2975 1200 40  0001 L CNN
+F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 1300 50  0001 C CNN
+F 3 "~" H 2775 1300 50  0001 C CNN
+	1    2775 1300
 	-1   0    0    -1  
 $EndComp
 $Comp
 L veloce:Screw_Terminal_01x02 J11
 U 1 1 617D342A
-P 2175 1100
-F 0 "J11" H 2375 1100 50  0000 L CNB
-F 1 "HVBin" H 2375 1000 40  0000 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2175 1100 50  0001 C CNN
-F 3 "~" H 2175 1100 50  0001 C CNN
-F 4 "[+]" H 2225 1100 40  0000 L CNB "Field4"
-F 5 "[-]" H 2225 1000 40  0000 L CNB "Field5"
-	1    2175 1100
+P 2775 1100
+F 0 "J11" H 2850 1100 50  0000 L CNB
+F 1 "PWR" H 2975 1000 40  0001 L CNN
+F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 1100 50  0001 C CNN
+F 3 "~" H 2775 1100 50  0001 C CNN
+	1    2775 1100
 	-1   0    0    -1  
-$EndComp
-$Comp
-L veloce:CONN_1 P15
-U 1 1 61709493
-P 4275 2900
-F 0 "P15" H 4325 2900 40  0000 L CNN
-F 1 "CONN_1" H 4275 2955 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4275 2900 60  0001 C CNN
-F 3 "" H 4275 2900 60  0000 C CNN
-	1    4275 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L veloce:CONN_1 P14
-U 1 1 61709088
-P 4175 2900
-F 0 "P14" H 4225 2900 40  0000 L CNN
-F 1 "CONN_1" H 4175 2955 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4175 2900 60  0001 C CNN
-F 3 "" H 4175 2900 60  0000 C CNN
-	1    4175 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L veloce:CONN_1 P13
-U 1 1 61708E1A
-P 4075 2900
-F 0 "P13" H 4125 2900 40  0000 L CNN
-F 1 "CONN_1" H 4075 2955 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4075 2900 60  0001 C CNN
-F 3 "" H 4075 2900 60  0000 C CNN
-	1    4075 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L veloce:CONN_1 P12
-U 1 1 61708ADF
-P 3975 2900
-F 0 "P12" H 4025 2900 40  0000 L CNN
-F 1 "CONN_1" H 3975 2955 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 3975 2900 60  0001 C CNN
-F 3 "" H 3975 2900 60  0000 C CNN
-	1    3975 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L veloce:CONN_1 P11
-U 1 1 6170878E
-P 3875 2900
-F 0 "P11" H 3925 2900 40  0000 L CNN
-F 1 "CONN_1" H 3875 2955 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 3875 2900 60  0001 C CNN
-F 3 "" H 3875 2900 60  0000 C CNN
-	1    3875 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L veloce:CONN_1 P16
-U 1 1 617079EE
-P 4375 2900
-F 0 "P16" H 4425 2900 40  0000 L CNN
-F 1 "CONN_1" H 4375 2955 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4375 2900 60  0001 C CNN
-F 3 "" H 4375 2900 60  0000 C CNN
-	1    4375 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L veloce:CONN_1 P9
-U 1 1 61706C95
-P 4875 1050
-F 0 "P9" H 4925 1050 40  0000 L CNN
-F 1 "CONN_1" H 4875 1105 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4875 1050 60  0001 C CNN
-F 3 "" H 4875 1050 60  0000 C CNN
-	1    4875 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L veloce:CONN_1 P4
-U 1 1 617034C3
-P 3375 1250
-F 0 "P4" H 3425 1250 40  0000 L CNN
-F 1 "CONN_1" H 3375 1305 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 3375 1250 60  0001 C CNN
-F 3 "" H 3375 1250 60  0000 C CNN
-	1    3375 1250
-	-1   0    0    1   
-$EndComp
-$Comp
-L veloce:CONN_1 P2
-U 1 1 61702C66
-P 3375 1050
-F 0 "P2" H 3425 1050 40  0000 L CNN
-F 1 "CONN_1" H 3375 1105 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 3375 1050 60  0001 C CNN
-F 3 "" H 3375 1050 60  0000 C CNN
-	1    3375 1050
-	-1   0    0    1   
-$EndComp
-$Comp
-L veloce:CONN_1 P7
-U 1 1 617007F0
-P 4875 1250
-F 0 "P7" H 4925 1250 40  0000 L CNN
-F 1 "CONN_1" H 4875 1305 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4875 1250 60  0001 C CNN
-F 3 "" H 4875 1250 60  0000 C CNN
-	1    4875 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L veloce:CONN_1 P5
-U 1 1 61700136
-P 3375 1350
-F 0 "P5" H 3425 1350 40  0000 L CNN
-F 1 "CONN_1" H 3375 1405 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 3375 1350 60  0001 C CNN
-F 3 "" H 3375 1350 60  0000 C CNN
-	1    3375 1350
-	-1   0    0    1   
-$EndComp
-$Comp
-L veloce:CONN_1 P3
-U 1 1 616FFCC8
-P 3375 1150
-F 0 "P3" H 3425 1150 40  0000 L CNN
-F 1 "CONN_1" H 3375 1205 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 3375 1150 60  0001 C CNN
-F 3 "" H 3375 1150 60  0000 C CNN
-	1    3375 1150
-	-1   0    0    1   
-$EndComp
-$Comp
-L veloce:CONN_1 P1
-U 1 1 616FE4BA
-P 3375 950
-F 0 "P1" H 3425 950 40  0000 L CNN
-F 1 "CONN_1" H 3375 1005 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 3375 950 60  0001 C CNN
-F 3 "" H 3375 950 60  0000 C CNN
-	1    3375 950 
-	-1   0    0    1   
 $EndComp
 $Comp
 L veloce:R R20
 U 1 1 61673E32
-P 6525 6075
-F 0 "R20" V 6625 6000 50  0000 L CNB
-F 1 "22k" V 6525 6000 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6455 6075 50  0001 C CNN
-F 3 "~" H 6525 6075 50  0001 C CNN
-	1    6525 6075
+P 5850 6075
+F 0 "R20" V 5950 6000 50  0000 L CNB
+F 1 "22k" V 5850 6000 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5780 6075 50  0001 C CNN
+F 3 "~" H 5850 6075 50  0001 C CNN
+	1    5850 6075
 	1    0    0    -1  
 $EndComp
 $Comp
 L veloce:R R19
 U 1 1 61673602
-P 6325 6075
-F 0 "R19" V 6425 6000 50  0000 L CNB
-F 1 "22k" V 6325 6000 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6255 6075 50  0001 C CNN
-F 3 "~" H 6325 6075 50  0001 C CNN
-	1    6325 6075
+P 5650 6075
+F 0 "R19" V 5750 6000 50  0000 L CNB
+F 1 "22k" V 5650 6000 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5580 6075 50  0001 C CNN
+F 3 "~" H 5650 6075 50  0001 C CNN
+	1    5650 6075
 	1    0    0    -1  
 $EndComp
 $Comp
 L veloce:R R18
 U 1 1 6167327C
-P 4800 6075
-F 0 "R18" V 4900 6000 50  0000 L CNB
-F 1 "22k" V 4800 6000 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4730 6075 50  0001 C CNN
-F 3 "~" H 4800 6075 50  0001 C CNN
-	1    4800 6075
+P 4125 6075
+F 0 "R18" V 4225 6000 50  0000 L CNB
+F 1 "22k" V 4125 6000 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4055 6075 50  0001 C CNN
+F 3 "~" H 4125 6075 50  0001 C CNN
+	1    4125 6075
 	1    0    0    -1  
 $EndComp
 $Comp
 L veloce:R R17
 U 1 1 6162390F
-P 4600 6075
-F 0 "R17" V 4700 6000 50  0000 L CNB
-F 1 "22k" V 4600 6000 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4530 6075 50  0001 C CNN
-F 3 "~" H 4600 6075 50  0001 C CNN
-	1    4600 6075
+P 3925 6075
+F 0 "R17" V 4025 6000 50  0000 L CNB
+F 1 "22k" V 3925 6000 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3855 6075 50  0001 C CNN
+F 3 "~" H 3925 6075 50  0001 C CNN
+	1    3925 6075
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1403,23 +1187,12 @@ $EndComp
 $Comp
 L veloce:LV_Buck_virtual #PS2
 U 1 1 61483027
-P 1025 1750
-F 0 "#PS2" H 800 1950 50  0000 C CNB
-F 1 "LVB" H 1175 1950 40  0000 C CNN
-F 2 "" H -25 1500 50  0001 L CNN
-F 3 "" H 2075 1450 50  0001 L CNN
-	1    1025 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L veloce:HV_Buck_virtual #PS1
-U 1 1 6147E706
-P 1025 1350
-F 0 "#PS1" H 800 1550 50  0000 C CNB
-F 1 "HVB" H 1175 1550 40  0000 C CNN
-F 2 "" H -25 1100 50  0001 L CNN
-F 3 "" H 2075 1050 50  0001 L CNN
-	1    1025 1350
+P 1025 1850
+F 0 "#PS2" H 825 2025 50  0000 C CNB
+F 1 "LVB" H 1250 2000 40  0000 C CNN
+F 2 "" H -25 1600 50  0001 L CNN
+F 3 "" H 2075 1550 50  0001 L CNN
+	1    1025 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1434,21 +1207,21 @@ F 3 "~" V 1000 760 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3250 1450 3525 1450
+	775  3550 1050 3550
 Wire Wire Line
-	3525 1550 3250 1550
+	1050 3650 775  3650
 Wire Wire Line
-	3250 1650 3525 1650
+	775  3750 1050 3750
 Wire Wire Line
-	3525 1750 3250 1750
+	1050 3850 775  3850
 Wire Wire Line
-	3525 2150 3250 2150
+	1050 4250 775  4250
 Wire Wire Line
-	3250 2050 3525 2050
+	775  4150 1050 4150
 Wire Wire Line
-	3525 1950 3250 1950
+	1050 4050 775  4050
 Wire Wire Line
-	3250 1850 3525 1850
+	775  3950 1050 3950
 Text Notes 7000 600  0    50   ~ 10
 HEAD LIGHT
 Text Notes 9150 600  0    50   ~ 10
@@ -1468,624 +1241,544 @@ SPARE
 $Comp
 L veloce:R R21
 U 1 1 6185D09E
-P 5675 2150
-F 0 "R21" V 5575 2075 50  0000 L CNB
-F 1 "10k" V 5675 2075 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5605 2150 50  0001 C CNN
-F 3 "~" H 5675 2150 50  0001 C CNN
-	1    5675 2150
+P 3200 4250
+F 0 "R21" V 3100 4175 50  0000 L CNB
+F 1 "10k" V 3200 4175 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3130 4250 50  0001 C CNN
+F 3 "~" H 3200 4250 50  0001 C CNN
+	1    3200 4250
 	0    -1   -1   0   
 $EndComp
-Text Label 5975 2450 2    40   ~ 0
+Text Label 3500 4550 2    40   ~ 0
 GND
-Text Label 5975 1850 2    40   ~ 0
+Text Label 3500 3950 2    40   ~ 0
 3V3
 Wire Notes Line
-	6775 6425 6775 6025
+	6100 6425 6100 6025
 Wire Notes Line
-	6775 6025 7725 6025
+	6100 6025 7050 6025
 Wire Notes Line
-	7725 6025 7725 6425
+	7050 6025 7050 6425
 Wire Notes Line
-	6675 6425 6725 6375
+	6000 6425 6050 6375
 Wire Notes Line
-	6725 6375 6725 6475
+	6050 6375 6050 6475
 Wire Notes Line
-	6725 6475 6675 6425
+	6050 6475 6000 6425
 Wire Notes Line
-	6675 6425 7725 6425
-Text Notes 1550 700  0    40   ~ 0
+	6000 6425 7050 6425
+Text Notes 2175 700  0    40   ~ 0
 72V
-Text Notes 1550 800  0    40   ~ 0
+Text Notes 2150 2000 0    40   ~ 0
 GND
-Text Notes 1550 900  0    40   ~ 0
+Text Notes 2175 800  0    40   ~ 0
 72V
-Text Notes 1550 1000 0    40   ~ 0
+Text Notes 2150 1500 0    40   ~ 0
 GND
-Text Notes 1550 1100 0    40   ~ 0
+Text Notes 2175 900  0    40   ~ 0
 72V
-Text Notes 1550 1200 0    40   ~ 0
+Text Notes 2150 1600 0    40   ~ 0
 GND
-Text Notes 1550 1300 0    40   ~ 0
+Text Notes 2175 1000 0    40   ~ 0
 12V
-Text Notes 1550 1400 0    40   ~ 0
+Text Notes 2150 1700 0    40   ~ 0
 GND
-Text Notes 1550 1500 0    40   ~ 0
+Text Notes 2175 1100 0    40   ~ 0
 12V
-Text Notes 1550 1600 0    40   ~ 0
+Text Notes 2150 1800 0    40   ~ 0
 GND
-Text Notes 1550 1700 0    40   ~ 0
+Text Notes 2175 1200 0    40   ~ 0
 5V
-Text Notes 1550 1800 0    40   ~ 0
+Text Notes 2150 1900 0    40   ~ 0
 GND
-Wire Notes Line
-	1200 700  1650 700 
-Wire Notes Line
-	1650 800  600  800 
-Wire Notes Line
-	600  800  600  700 
-Wire Notes Line
-	600  700  800  700 
-Wire Notes Line
-	1650 900  1450 900 
-Wire Notes Line
-	1450 900  1450 700 
-Wire Notes Line
-	1350 1000 1350 800 
-Wire Notes Line
-	1350 1000 1650 1000
-Wire Notes Line
-	1650 1100 600  1100
-Wire Notes Line
-	600  1100 600  1300
-Wire Notes Line
-	625  1400 500  1400
-Wire Notes Line
-	500  1400 500  1200
-Wire Notes Line
-	500  1200 1650 1200
-Wire Notes Line
-	1650 1300 1425 1300
-Wire Notes Line
-	1650 1400 1425 1400
-Wire Notes Line
-	600  1300 625  1300
-Wire Notes Line
-	1650 1500 600  1500
-Wire Notes Line
-	600  1500 600  1700
-Wire Notes Line
-	625  1800 500  1800
-Wire Notes Line
-	500  1800 500  1600
-Wire Notes Line
-	500  1600 1650 1600
-Wire Notes Line
-	1425 1700 1650 1700
-Wire Notes Line
-	1425 1800 1650 1800
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 61B6125A
-P 2725 2250
-F 0 "#FLG0102" H 2725 2325 50  0001 C CNN
-F 1 "PWR_FLAG" H 2750 2475 50  0001 C CNN
-F 2 "" H 2725 2250 50  0001 C CNN
-F 3 "~" H 2725 2250 50  0001 C CNN
-	1    2725 2250
+P 3325 2150
+F 0 "#FLG0102" H 3325 2225 50  0001 C CNN
+F 1 "PWR_FLAG" H 3350 2375 50  0001 C CNN
+F 2 "" H 3325 2150 50  0001 C CNN
+F 3 "~" H 3325 2150 50  0001 C CNN
+	1    3325 2150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2725 2250 2725 2200
-Connection ~ 2725 2200
+	3325 2150 3325 2100
 $Comp
 L veloce:USB_A_stacked J17
 U 1 1 61BB6806
-P 1300 7200
-F 0 "J17" H 1175 7625 50  0000 C CNB
-F 1 "USB_A_stacked" H 1325 7550 40  0000 C CNN
-F 2 "veloce:USB_A_Wuerth_61400826021_Horizontal_Stacked" H 1450 7150 50  0001 C CNN
-F 3 "https://www.alliedcomponents.com/storage/rj45/pdfs/ausb2-4599.pdf" H 1450 7150 50  0001 C CNN
-F 4 "USB-A-D-RA" V 1050 7100 40  0000 C CNN "PN"
-	1    1300 7200
+P 950 7200
+F 0 "J17" H 825 7625 50  0000 C CNB
+F 1 "USB_A_stacked" H 975 7550 40  0000 C CNN
+F 2 "veloce:USB_A_Wuerth_61400826021_Horizontal_Stacked" H 1100 7150 50  0001 C CNN
+F 3 "https://www.alliedcomponents.com/storage/rj45/pdfs/ausb2-4599.pdf" H 1100 7150 50  0001 C CNN
+F 4 "USB-A-D-RA" V 700 7100 40  0000 C CNN "PN"
+	1    950  7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L veloce:USB_A_stacked J17
 U 2 1 61BB75E5
-P 2050 7200
-F 0 "J17" H 1925 7625 50  0000 C CNB
-F 1 "USB_A_stacked" H 2075 7550 40  0000 C CNN
-F 2 "veloce:USB_A_Wuerth_61400826021_Horizontal_Stacked" H 2200 7150 50  0001 C CNN
-F 3 "https://www.alliedcomponents.com/storage/rj45/pdfs/ausb2-4599.pdf" H 2200 7150 50  0001 C CNN
-F 4 "USB-A-D-RA" V 1800 7100 40  0000 C CNN "PN"
-	2    2050 7200
+P 1700 7200
+F 0 "J17" H 1575 7625 50  0000 C CNB
+F 1 "USB_A_stacked" H 1725 7550 40  0000 C CNN
+F 2 "veloce:USB_A_Wuerth_61400826021_Horizontal_Stacked" H 1850 7150 50  0001 C CNN
+F 3 "https://www.alliedcomponents.com/storage/rj45/pdfs/ausb2-4599.pdf" H 1850 7150 50  0001 C CNN
+F 4 "USB-A-D-RA" V 1450 7100 40  0000 C CNN "PN"
+	2    1700 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L veloce:USB_C_Receptacle_USB2.0 J18
 U 1 1 61BCB015
-P 3800 6700
-F 0 "J18" H 3450 7525 50  0000 C CNB
-F 1 "USB_C_Receptacle_USB2.0" H 3800 7450 40  0000 C CNN
-F 2 "veloce:USB_C_GCT_USB4085-GF-A_REVA" H 3950 6700 50  0001 C CNN
-F 3 "https://www.cuidevices.com/product/resource/digikeypdf/ujc-hp-g-smt-tr.pdf" H 3950 6700 50  0001 C CNN
-F 4 "USB4085-GF-A" V 3325 6300 50  0000 C CNN "PN"
-	1    3800 6700
+P 3125 6700
+F 0 "J18" H 2775 7525 50  0000 C CNB
+F 1 "USB_C_Receptacle_USB2.0" H 3125 7450 40  0000 C CNN
+F 2 "veloce:USB_C_GCT_USB4085-GF-A_REVA" H 3275 6700 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/ujc-hp-g-smt-tr.pdf" H 3275 6700 50  0001 C CNN
+F 4 "USB4085-GF-A" V 2650 6300 50  0000 C CNN "PN"
+	1    3125 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L veloce:USB_C_Receptacle_USB2.0 J19
 U 1 1 61BCE70A
-P 5525 6700
-F 0 "J19" H 5175 7525 50  0000 C CNB
-F 1 "USB_C_Receptacle_USB2.0" H 5525 7450 40  0000 C CNN
-F 2 "veloce:USB_C_GCT_USB4085-GF-A_REVA" H 5675 6700 50  0001 C CNN
-F 3 "https://www.cuidevices.com/product/resource/digikeypdf/ujc-hp-g-smt-tr.pdf" H 5675 6700 50  0001 C CNN
-F 4 "USB4085-GF-A" V 5050 6300 50  0000 C CNN "PN"
-	1    5525 6700
+P 4850 6700
+F 0 "J19" H 4500 7525 50  0000 C CNB
+F 1 "USB_C_Receptacle_USB2.0" H 4850 7450 40  0000 C CNN
+F 2 "veloce:USB_C_GCT_USB4085-GF-A_REVA" H 5000 6700 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/ujc-hp-g-smt-tr.pdf" H 5000 6700 50  0001 C CNN
+F 4 "USB4085-GF-A" V 4375 6300 50  0000 C CNN "PN"
+	1    4850 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L veloce:Jumper_3_Open JP1
 U 1 1 61C0289E
-P 5975 2150
-F 0 "JP1" V 5975 2325 50  0000 L CNB
-F 1 "Pull_Up_Dn" H 5975 2250 40  0000 C CNN
-F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 5975 2150 50  0001 C CNN
-F 3 "~" H 5975 2150 50  0001 C CNN
-	1    5975 2150
+P 3500 4250
+F 0 "JP1" V 3500 4425 50  0000 L CNB
+F 1 "Pull_Up_Dn" H 3500 4350 40  0000 C CNN
+F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 3500 4250 50  0001 C CNN
+F 3 "~" H 3500 4250 50  0001 C CNN
+	1    3500 4250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4725 2150 5525 2150
+	2250 4250 3050 4250
 Wire Wire Line
-	5975 1900 5975 1850
+	3500 4000 3500 3950
 $Comp
 L veloce:Adafruit_HUZZAH_ESP32_breakout_physical U1
 U 1 1 61D22746
-P 4125 1650
-F 0 "U1" H 3725 2650 50  0000 C CNB
-F 1 "Adafruit_HUZZAH_ESP32_breakout_physical" H 4325 2725 40  0000 C CNN
-F 2 "veloce:Adafruit_HUZZAH_ESP32_breakout" H 4325 2250 50  0001 C CNN
-F 3 "https://www.adafruit.com/product/2471" H 4425 2350 50  0001 C CNN
-	1    4125 1650
+P 1650 3750
+F 0 "U1" H 1250 4750 50  0000 C CNB
+F 1 "Adafruit_HUZZAH_ESP32_breakout_physical" H 1850 4825 40  0000 C CNN
+F 2 "veloce:Adafruit_HUZZAH_ESP32_breakout_sparepads" H 1850 4350 50  0001 C CNN
+F 3 "https://www.adafruit.com/product/2471" H 1950 4450 50  0001 C CNN
+	1    1650 3750
 	1    0    0    -1  
 $EndComp
-Text Label 5000 2350 2    40   ~ 0
+Text Label 2525 4450 2    40   ~ 0
 5V
-$Comp
-L veloce:CONN_1 P6
-U 1 1 61E1452E
-P 4875 2250
-F 0 "P6" H 4925 2250 40  0000 L CNN
-F 1 "CONN_1" H 4875 2305 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4875 2250 60  0001 C CNN
-F 3 "" H 4875 2250 60  0000 C CNN
-	1    4875 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L veloce:CONN_1 P8
-U 1 1 61E208DF
-P 4875 1150
-F 0 "P8" H 4925 1150 40  0000 L CNN
-F 1 "CONN_1" H 4875 1205 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4875 1150 60  0001 C CNN
-F 3 "" H 4875 1150 60  0000 C CNN
-	1    4875 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L veloce:CONN_1 P10
-U 1 1 61F0D400
-P 4875 950
-F 0 "P10" H 4925 950 40  0000 L CNN
-F 1 "CONN_1" H 4875 1005 30  0001 C CNN
-F 2 "veloce:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4875 950 60  0001 C CNN
-F 3 "" H 4875 950 60  0000 C CNN
-	1    4875 950 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4725 2050 5000 2050
-Text Label 5000 2050 2    40   ~ 0
+	2250 4150 2525 4150
+Text Label 2525 4150 2    40   ~ 0
 IN8
 Wire Wire Line
-	4725 1950 5000 1950
-Text Label 5000 1950 2    40   ~ 0
+	2250 4050 2525 4050
+Text Label 2525 4050 2    40   ~ 0
 IN7
 Wire Wire Line
-	4725 1850 5000 1850
-Text Label 5000 1850 2    40   ~ 0
+	2250 3950 2525 3950
+Text Label 2525 3950 2    40   ~ 0
 IN6
 Wire Wire Line
-	4725 1750 5000 1750
-Text Label 5000 1750 2    40   ~ 0
+	2250 3850 2525 3850
+Text Label 2525 3850 2    40   ~ 0
 IN5
 Wire Wire Line
-	4725 1650 5000 1650
-Text Label 5000 1650 2    40   ~ 0
+	2250 3750 2525 3750
+Text Label 2525 3750 2    40   ~ 0
 IN4
 Wire Wire Line
-	4725 1550 5000 1550
-Text Label 5000 1550 2    40   ~ 0
+	2250 3650 2525 3650
+Text Label 2525 3650 2    40   ~ 0
 IN3
 Wire Wire Line
-	4725 1450 5000 1450
-Text Label 5000 1450 2    40   ~ 0
+	2250 3550 2525 3550
+Text Label 2525 3550 2    40   ~ 0
 IN2
 Wire Wire Line
-	4725 1350 5000 1350
-Text Label 5000 1350 2    40   ~ 0
+	2250 3450 2525 3450
+Text Label 2525 3450 2    40   ~ 0
 IN1
 Wire Wire Line
-	3525 2250 3250 2250
-Text Label 3250 2250 0    40   ~ 0
+	1050 4350 775  4350
+Text Label 775  4350 0    40   ~ 0
 3V3
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 61FBE8A1
-P 3250 2250
-F 0 "#FLG0103" H 3250 2325 50  0001 C CNN
-F 1 "PWR_FLAG" H 3275 2475 50  0001 C CNN
-F 2 "" H 3250 2250 50  0001 C CNN
-F 3 "~" H 3250 2250 50  0001 C CNN
-	1    3250 2250
-	0    -1   -1   0   
+P 5800 1300
+F 0 "#FLG0103" H 5800 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H 5825 1525 50  0001 C CNN
+F 2 "" H 5800 1300 50  0001 C CNN
+F 3 "~" H 5800 1300 50  0001 C CNN
+	1    5800 1300
+	1    0    0    -1  
 $EndComp
 $Comp
 L veloce:Conn_02x08_Odd_Even J20
 U 1 1 6204BF9A
-P 5200 1750
-F 0 "J20" H 5225 2200 50  0000 C CNB
-F 1 "Inputs" H 5250 2125 40  0000 C CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-16_Horizontal" H 5200 1750 50  0001 C CNN
-F 3 "~" H 5200 1750 50  0001 C CNN
-	1    5200 1750
+P 2775 3800
+F 0 "J20" H 2775 3275 50  0000 C CNB
+F 1 "Inputs" H 2775 3350 40  0000 C CNN
+F 2 "veloce:TerminalBlock_Wurth_1377-16_Horizontal" H 2775 3800 50  0001 C CNN
+F 3 "~" H 2775 3800 50  0001 C CNN
+	1    2775 3800
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5500 1350 5575 1350
+	3025 3450 3100 3450
 Wire Wire Line
-	5575 1350 5575 1450
+	3100 3450 3100 3550
 Wire Wire Line
-	5575 2050 5500 2050
+	3100 4150 3025 4150
 Wire Wire Line
-	5500 1950 5575 1950
-Connection ~ 5575 1950
+	3025 4050 3100 4050
+Connection ~ 3100 4050
 Wire Wire Line
-	5575 1950 5575 2050
+	3100 4050 3100 4150
 Wire Wire Line
-	5500 1850 5575 1850
-Connection ~ 5575 1850
+	3025 3950 3100 3950
+Connection ~ 3100 3950
 Wire Wire Line
-	5575 1850 5575 1950
+	3100 3950 3100 4050
 Wire Wire Line
-	5500 1750 5575 1750
-Connection ~ 5575 1750
+	3025 3850 3100 3850
+Connection ~ 3100 3850
 Wire Wire Line
-	5575 1750 5575 1850
+	3100 3850 3100 3950
 Wire Wire Line
-	5500 1650 5575 1650
-Connection ~ 5575 1650
+	3025 3750 3100 3750
+Connection ~ 3100 3750
 Wire Wire Line
-	5575 1650 5575 1750
+	3100 3750 3100 3850
 Wire Wire Line
-	5500 1550 5575 1550
-Connection ~ 5575 1550
+	3025 3650 3100 3650
+Connection ~ 3100 3650
 Wire Wire Line
-	5575 1550 5575 1650
+	3100 3650 3100 3750
 Wire Wire Line
-	5500 1450 5575 1450
-Connection ~ 5575 1450
+	3025 3550 3100 3550
+Connection ~ 3100 3550
 Wire Wire Line
-	5575 1450 5575 1550
+	3100 3550 3100 3650
 Wire Wire Line
-	5575 1350 5800 1350
-Text Label 5800 1350 2    40   ~ 0
+	3100 3450 3325 3450
+Text Label 3325 3450 2    40   ~ 0
 GND
 Wire Wire Line
-	5975 2400 5975 2450
+	3500 4500 3500 4550
 $Comp
 L veloce:Jumper_3_Open JP2
 U 1 1 62389747
-P 1825 3450
-F 0 "JP2" V 1825 3625 50  0000 L CNB
-F 1 "Pull_Up_Dn" H 1825 3550 40  0000 C CNN
-F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 1825 3450 50  0001 C CNN
-F 3 "~" H 1825 3450 50  0001 C CNN
-	1    1825 3450
+P 5500 1675
+F 0 "JP2" V 5500 1825 50  0000 L CNB
+F 1 "Pull_Up_Dn" H 5500 1775 40  0000 C CNN
+F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 5500 1675 50  0001 C CNN
+F 3 "~" H 5500 1675 50  0001 C CNN
+	1    5500 1675
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1550 3450 1675 3450
+	5325 1675 5350 1675
 Wire Wire Line
-	1250 3450 975  3450
-Text Label 975  3450 0    40   ~ 0
+	5025 1675 4925 1675
+Text Label 4925 1675 0    40   ~ 0
 IN1
 $Comp
 L veloce:Jumper_3_Open JP4
 U 1 1 623D30BD
-P 1825 4050
-F 0 "JP4" V 1825 4225 50  0000 L CNB
-F 1 "Pull_Up_Dn" H 1825 4150 40  0000 C CNN
-F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 1825 4050 50  0001 C CNN
-F 3 "~" H 1825 4050 50  0001 C CNN
-	1    1825 4050
+P 5500 2275
+F 0 "JP4" V 5500 2425 50  0000 L CNB
+F 1 "Pull_Up_Dn" H 5500 2375 40  0000 C CNN
+F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 5500 2275 50  0001 C CNN
+F 3 "~" H 5500 2275 50  0001 C CNN
+	1    5500 2275
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1550 4050 1675 4050
+	5325 2275 5350 2275
 Wire Wire Line
-	1250 4050 975  4050
-Text Label 3475 3450 2    40   ~ 0
+	5025 2275 4925 2275
+Text Label 6775 1675 2    40   ~ 0
 IN2
 $Comp
 L veloce:Jumper_3_Open JP6
 U 1 1 623E6007
-P 1825 4650
-F 0 "JP6" V 1825 4825 50  0000 L CNB
-F 1 "Pull_Up_Dn" H 1825 4750 40  0000 C CNN
-F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 1825 4650 50  0001 C CNN
-F 3 "~" H 1825 4650 50  0001 C CNN
-	1    1825 4650
+P 5500 2875
+F 0 "JP6" V 5500 3025 50  0000 L CNB
+F 1 "Pull_Up_Dn" H 5500 2975 40  0000 C CNN
+F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 5500 2875 50  0001 C CNN
+F 3 "~" H 5500 2875 50  0001 C CNN
+	1    5500 2875
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1550 4650 1675 4650
+	5325 2875 5350 2875
 Wire Wire Line
-	1250 4650 975  4650
-Text Label 975  4050 0    40   ~ 0
+	5025 2875 4925 2875
+Text Label 4925 2275 0    40   ~ 0
 IN3
 $Comp
 L veloce:Jumper_3_Open JP8
 U 1 1 623E601E
-P 1825 5250
-F 0 "JP8" V 1825 5425 50  0000 L CNB
-F 1 "Pull_Up_Dn" H 1825 5350 40  0000 C CNN
-F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 1825 5250 50  0001 C CNN
-F 3 "~" H 1825 5250 50  0001 C CNN
-	1    1825 5250
+P 5500 3475
+F 0 "JP8" V 5500 3625 50  0000 L CNB
+F 1 "Pull_Up_Dn" H 5500 3575 40  0000 C CNN
+F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 5500 3475 50  0001 C CNN
+F 3 "~" H 5500 3475 50  0001 C CNN
+	1    5500 3475
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1550 5250 1675 5250
-Text Label 3475 4050 2    40   ~ 0
+	5325 3475 5350 3475
+Text Label 6775 2275 2    40   ~ 0
 IN4
 $Comp
 L veloce:Jumper_3_Open JP3
 U 1 1 623FEC1D
-P 2625 3450
-F 0 "JP3" V 2625 3625 50  0000 L CNB
-F 1 "Pull_Up_Dn" H 2625 3550 40  0000 C CNN
-F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 2625 3450 50  0001 C CNN
-F 3 "~" H 2625 3450 50  0001 C CNN
-	1    2625 3450
+P 6200 1675
+F 0 "JP3" V 6200 1825 50  0000 L CNB
+F 1 "Pull_Up_Dn" H 6200 1775 40  0000 C CNN
+F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 6200 1675 50  0001 C CNN
+F 3 "~" H 6200 1675 50  0001 C CNN
+	1    6200 1675
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2900 3450 2775 3450
+	6375 1675 6350 1675
 Wire Wire Line
-	3200 3450 3475 3450
-Text Label 975  4650 0    40   ~ 0
+	6675 1675 6775 1675
+Text Label 4925 2875 0    40   ~ 0
 IN5
 $Comp
 L veloce:Jumper_3_Open JP5
 U 1 1 623FEC34
-P 2625 4050
-F 0 "JP5" V 2625 4225 50  0000 L CNB
-F 1 "Pull_Up_Dn" H 2625 4150 40  0000 C CNN
-F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 2625 4050 50  0001 C CNN
-F 3 "~" H 2625 4050 50  0001 C CNN
-	1    2625 4050
+P 6200 2275
+F 0 "JP5" V 6200 2425 50  0000 L CNB
+F 1 "Pull_Up_Dn" H 6200 2375 40  0000 C CNN
+F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 6200 2275 50  0001 C CNN
+F 3 "~" H 6200 2275 50  0001 C CNN
+	1    6200 2275
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2900 4050 2775 4050
+	6375 2275 6350 2275
 Wire Wire Line
-	3200 4050 3475 4050
-Text Label 3475 4650 2    40   ~ 0
+	6675 2275 6775 2275
+Text Label 6775 2875 2    40   ~ 0
 IN6
 $Comp
 L veloce:Jumper_3_Open JP7
 U 1 1 623FEC4B
-P 2625 4650
-F 0 "JP7" V 2625 4825 50  0000 L CNB
-F 1 "Pull_Up_Dn" H 2625 4750 40  0000 C CNN
-F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 2625 4650 50  0001 C CNN
-F 3 "~" H 2625 4650 50  0001 C CNN
-	1    2625 4650
+P 6200 2875
+F 0 "JP7" V 6200 3025 50  0000 L CNB
+F 1 "Pull_Up_Dn" H 6200 2975 40  0000 C CNN
+F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 6200 2875 50  0001 C CNN
+F 3 "~" H 6200 2875 50  0001 C CNN
+	1    6200 2875
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2900 4650 2775 4650
+	6375 2875 6350 2875
 Wire Wire Line
-	3200 4650 3475 4650
-Text Label 975  5250 0    40   ~ 0
+	6675 2875 6775 2875
+Text Label 4925 3475 0    40   ~ 0
 IN7
 $Comp
 L veloce:Jumper_3_Open JP9
 U 1 1 623FEC62
-P 2625 5250
-F 0 "JP9" V 2625 5425 50  0000 L CNB
-F 1 "Pull_Up_Dn" H 2625 5350 40  0000 C CNN
-F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 2625 5250 50  0001 C CNN
-F 3 "~" H 2625 5250 50  0001 C CNN
-	1    2625 5250
+P 6200 3475
+F 0 "JP9" V 6200 3625 50  0000 L CNB
+F 1 "Pull_Up_Dn" H 6200 3575 40  0000 C CNN
+F 2 "veloce:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_THT" H 6200 3475 50  0001 C CNN
+F 3 "~" H 6200 3475 50  0001 C CNN
+	1    6200 3475
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2900 5250 2775 5250
+	6375 3475 6350 3475
 Wire Wire Line
-	3200 5250 3475 5250
-Text Label 3475 5250 2    40   ~ 0
+	6675 3475 6775 3475
+Text Label 6775 3475 2    40   ~ 0
 IN8
 Wire Wire Line
-	1250 5250 975  5250
+	5025 3475 4925 3475
 Wire Wire Line
-	2175 3075 2175 3200
+	5800 1300 5800 1425
 Wire Wire Line
-	2175 5000 1825 5000
+	5800 3225 5500 3225
 Wire Wire Line
-	2625 5000 2175 5000
-Connection ~ 2175 5000
+	6200 3225 5800 3225
+Connection ~ 5800 3225
 Wire Wire Line
-	1825 4400 2175 4400
-Connection ~ 2175 4400
+	5500 2625 5800 2625
+Connection ~ 5800 2625
 Wire Wire Line
-	2175 4400 2175 5000
+	5800 2625 5800 3225
 Wire Wire Line
-	2625 4400 2175 4400
+	6200 2625 5800 2625
 Wire Wire Line
-	1825 3800 2175 3800
-Connection ~ 2175 3800
+	5500 2025 5800 2025
+Connection ~ 5800 2025
 Wire Wire Line
-	2175 3800 2175 4400
+	5800 2025 5800 2625
 Wire Wire Line
-	2625 3800 2175 3800
+	6200 2025 5800 2025
 Wire Wire Line
-	1825 3200 2175 3200
-Connection ~ 2175 3200
+	5500 1425 5800 1425
+Connection ~ 5800 1425
 Wire Wire Line
-	2175 3200 2175 3800
+	5800 1425 5800 2025
 Wire Wire Line
-	2625 3200 2175 3200
+	6200 1425 5800 1425
 Wire Wire Line
-	2275 3075 2275 3700
+	5900 1300 5900 1925
 Wire Wire Line
-	2275 5500 2625 5500
+	5900 3725 6200 3725
 Wire Wire Line
-	2275 5500 1825 5500
-Connection ~ 2275 5500
+	5900 3725 5500 3725
+Connection ~ 5900 3725
 Wire Wire Line
-	1825 4900 2275 4900
-Connection ~ 2275 4900
+	5500 3125 5900 3125
+Connection ~ 5900 3125
 Wire Wire Line
-	2275 4900 2275 5500
+	5900 3125 5900 3725
 Wire Wire Line
-	2275 4900 2625 4900
+	5900 3125 6200 3125
 Wire Wire Line
-	1825 4300 2275 4300
-Connection ~ 2275 4300
+	5500 2525 5900 2525
+Connection ~ 5900 2525
 Wire Wire Line
-	2275 4300 2275 4900
+	5900 2525 5900 3125
 Wire Wire Line
-	2275 4300 2625 4300
+	5900 2525 6200 2525
 Wire Wire Line
-	1825 3700 2275 3700
-Connection ~ 2275 3700
+	5500 1925 5900 1925
+Connection ~ 5900 1925
 Wire Wire Line
-	2275 3700 2275 4300
+	5900 1925 5900 2525
 Wire Wire Line
-	2275 3700 2625 3700
-Text Label 2175 3075 2    40   ~ 0
+	5900 1925 6200 1925
+Text Label 5800 1300 2    40   ~ 0
 3V3
-Text Label 2275 3075 0    40   ~ 0
+Text Label 5900 1300 0    40   ~ 0
 GND
-Text Notes 3975 4425 0    50   ~ 10
-NOTE :\nThis block allows setting each input \nwith pull up or pull down resistor
+Text Notes 5375 1025 0    50   ~ 10
+NOTE :\nThis block allows setting\neach input with pull up\nor pull down
 Wire Notes Line
-	3950 4550 3950 4150
+	5350 1050 5350 675 
 Wire Notes Line
-	3950 4150 5475 4150
+	5350 675  6350 675 
 Wire Notes Line
-	5475 4150 5475 4550
+	6350 675  6350 1050
 Wire Notes Line
-	3850 4550 5475 4550
+	5350 1050 6350 1050
 Wire Notes Line
-	3850 4550 3900 4500
+	5850 1200 5800 1150
 Wire Notes Line
-	3900 4500 3900 4600
+	5800 1150 5900 1150
 Wire Notes Line
-	3900 4600 3850 4550
-Connection ~ 5575 1350
+	5900 1150 5850 1200
+Connection ~ 3100 3450
 $Comp
 L veloce:R R22
 U 1 1 62987481
-P 1400 3450
-F 0 "R22" V 1300 3375 50  0000 L CNB
-F 1 "10k" V 1400 3375 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1330 3450 50  0001 C CNN
-F 3 "~" H 1400 3450 50  0001 C CNN
-	1    1400 3450
+P 5175 1675
+F 0 "R22" V 5075 1600 50  0000 L CNB
+F 1 "10k" V 5175 1600 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5105 1675 50  0001 C CNN
+F 3 "~" H 5175 1675 50  0001 C CNN
+	1    5175 1675
 	0    -1   -1   0   
 $EndComp
 $Comp
 L veloce:R R23
 U 1 1 6298B3A5
-P 3050 3450
-F 0 "R23" V 2950 3375 50  0000 L CNB
-F 1 "10k" V 3050 3375 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2980 3450 50  0001 C CNN
-F 3 "~" H 3050 3450 50  0001 C CNN
-	1    3050 3450
+P 6525 1675
+F 0 "R23" V 6425 1600 50  0000 L CNB
+F 1 "10k" V 6525 1600 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6455 1675 50  0001 C CNN
+F 3 "~" H 6525 1675 50  0001 C CNN
+	1    6525 1675
 	0    -1   -1   0   
 $EndComp
 $Comp
 L veloce:R R24
 U 1 1 6298BE0A
-P 1400 4050
-F 0 "R24" V 1300 3975 50  0000 L CNB
-F 1 "10k" V 1400 3975 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1330 4050 50  0001 C CNN
-F 3 "~" H 1400 4050 50  0001 C CNN
-	1    1400 4050
+P 5175 2275
+F 0 "R24" V 5075 2200 50  0000 L CNB
+F 1 "10k" V 5175 2200 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5105 2275 50  0001 C CNN
+F 3 "~" H 5175 2275 50  0001 C CNN
+	1    5175 2275
 	0    -1   -1   0   
 $EndComp
 $Comp
 L veloce:R R25
 U 1 1 6298C53D
-P 3050 4050
-F 0 "R25" V 2950 3975 50  0000 L CNB
-F 1 "10k" V 3050 3975 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2980 4050 50  0001 C CNN
-F 3 "~" H 3050 4050 50  0001 C CNN
-	1    3050 4050
+P 6525 2275
+F 0 "R25" V 6425 2200 50  0000 L CNB
+F 1 "10k" V 6525 2200 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6455 2275 50  0001 C CNN
+F 3 "~" H 6525 2275 50  0001 C CNN
+	1    6525 2275
 	0    -1   -1   0   
 $EndComp
 $Comp
 L veloce:R R27
 U 1 1 6298CC87
-P 3050 4650
-F 0 "R27" V 2950 4575 50  0000 L CNB
-F 1 "10k" V 3050 4575 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2980 4650 50  0001 C CNN
-F 3 "~" H 3050 4650 50  0001 C CNN
-	1    3050 4650
+P 6525 2875
+F 0 "R27" V 6425 2800 50  0000 L CNB
+F 1 "10k" V 6525 2800 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6455 2875 50  0001 C CNN
+F 3 "~" H 6525 2875 50  0001 C CNN
+	1    6525 2875
 	0    -1   -1   0   
 $EndComp
 $Comp
 L veloce:R R26
 U 1 1 6298E310
-P 1400 4650
-F 0 "R26" V 1300 4575 50  0000 L CNB
-F 1 "10k" V 1400 4575 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1330 4650 50  0001 C CNN
-F 3 "~" H 1400 4650 50  0001 C CNN
-	1    1400 4650
+P 5175 2875
+F 0 "R26" V 5075 2800 50  0000 L CNB
+F 1 "10k" V 5175 2800 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5105 2875 50  0001 C CNN
+F 3 "~" H 5175 2875 50  0001 C CNN
+	1    5175 2875
 	0    -1   -1   0   
 $EndComp
 $Comp
 L veloce:R R28
 U 1 1 6298EEED
-P 1400 5250
-F 0 "R28" V 1300 5175 50  0000 L CNB
-F 1 "10k" V 1400 5175 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1330 5250 50  0001 C CNN
-F 3 "~" H 1400 5250 50  0001 C CNN
-	1    1400 5250
+P 5175 3475
+F 0 "R28" V 5075 3400 50  0000 L CNB
+F 1 "10k" V 5175 3400 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5105 3475 50  0001 C CNN
+F 3 "~" H 5175 3475 50  0001 C CNN
+	1    5175 3475
 	0    -1   -1   0   
 $EndComp
 $Comp
 L veloce:R R29
 U 1 1 6298FB8F
-P 3050 5250
-F 0 "R29" V 2950 5175 50  0000 L CNB
-F 1 "10k" V 3050 5175 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2980 5250 50  0001 C CNN
-F 3 "~" H 3050 5250 50  0001 C CNN
-	1    3050 5250
+P 6525 3475
+F 0 "R29" V 6425 3400 50  0000 L CNB
+F 1 "10k" V 6525 3400 40  0000 L CNN
+F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6455 3475 50  0001 C CNN
+F 3 "~" H 6525 3475 50  0001 C CNN
+	1    6525 3475
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2132,4 +1825,213 @@ F 3 "~" H 10200 6225 50  0001 C CNN
 	1    10200 6225
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	5850 1050 5850 1150
+Wire Notes Line width 15 style solid
+	4850 625  6850 625 
+Wire Notes Line width 15 style solid
+	6850 625  6850 4525
+Wire Notes Line width 15 style solid
+	6850 4525 4850 4525
+Wire Notes Line width 15 style solid
+	4850 4525 4850 625 
+Wire Wire Line
+	2975 700  3200 700 
+Wire Wire Line
+	3200 700  3200 800 
+Wire Wire Line
+	3200 900  2975 900 
+Wire Wire Line
+	2975 800  3200 800 
+Connection ~ 3200 800 
+Wire Wire Line
+	3200 800  3200 900 
+Wire Wire Line
+	2975 1000 3200 1000
+Wire Wire Line
+	3200 1000 3200 1100
+Wire Wire Line
+	3200 1100 2975 1100
+Wire Wire Line
+	2975 1200 3200 1200
+Wire Wire Line
+	3200 1200 3200 1300
+Wire Wire Line
+	3200 1300 2975 1300
+Wire Wire Line
+	2975 1400 3200 1400
+Wire Wire Line
+	3200 1400 3200 1500
+Connection ~ 3200 2100
+Wire Wire Line
+	3200 2100 3325 2100
+Wire Wire Line
+	2975 2000 3200 2000
+Connection ~ 3200 2000
+Wire Wire Line
+	3200 2000 3200 2100
+Wire Wire Line
+	2975 1900 3200 1900
+Connection ~ 3200 1900
+Wire Wire Line
+	3200 1900 3200 2000
+Wire Wire Line
+	2975 1800 3200 1800
+Connection ~ 3200 1800
+Wire Wire Line
+	3200 1800 3200 1900
+Wire Wire Line
+	2975 1700 3200 1700
+Connection ~ 3200 1700
+Wire Wire Line
+	3200 1700 3200 1800
+Wire Wire Line
+	2975 1600 3200 1600
+Connection ~ 3200 1600
+Wire Wire Line
+	3200 1600 3200 1700
+Wire Wire Line
+	2975 1500 3200 1500
+Connection ~ 3200 1500
+Wire Wire Line
+	3200 1500 3200 1600
+Wire Wire Line
+	1200 700  2150 700 
+Wire Wire Line
+	2300 800  2150 800 
+Wire Wire Line
+	2150 800  2150 700 
+Connection ~ 2150 700 
+Wire Wire Line
+	2150 700  2300 700 
+Wire Wire Line
+	2300 900  550  900 
+Wire Wire Line
+	550  900  550  1150
+Wire Wire Line
+	2300 1000 1500 1000
+Wire Wire Line
+	1500 1000 1500 1150
+NoConn ~ 2300 700 
+NoConn ~ 2300 800 
+NoConn ~ 2300 900 
+NoConn ~ 2300 1000
+NoConn ~ 2300 1100
+NoConn ~ 2300 1200
+NoConn ~ 2300 1300
+NoConn ~ 2300 1400
+NoConn ~ 2300 1500
+NoConn ~ 2300 1600
+NoConn ~ 2300 1700
+NoConn ~ 2300 1800
+NoConn ~ 2300 1900
+NoConn ~ 2300 2000
+Wire Wire Line
+	2300 1100 1575 1100
+Wire Wire Line
+	1575 1100 1575 1600
+Wire Wire Line
+	1575 1600 550  1600
+Wire Wire Line
+	550  1600 550  1800
+Wire Wire Line
+	550  1800 625  1800
+Wire Wire Line
+	2300 1200 1650 1200
+Wire Wire Line
+	1650 1200 1650 1800
+Wire Wire Line
+	1650 1800 1425 1800
+Wire Wire Line
+	550  1900 625  1900
+Wire Wire Line
+	1750 1500 550  1500
+Wire Wire Line
+	550  1500 550  1250
+Wire Wire Line
+	2300 1700 1850 1700
+Wire Wire Line
+	1850 1700 1850 1250
+Wire Wire Line
+	2300 1800 1750 1800
+Wire Wire Line
+	1750 1800 1750 1500
+Wire Wire Line
+	2300 2000 550  2000
+Wire Wire Line
+	550  2000 550  1900
+Wire Wire Line
+	2300 1600 1950 1600
+Wire Wire Line
+	1950 1600 1950 1500
+Wire Wire Line
+	1950 825  550  825 
+Wire Wire Line
+	550  825  550  700 
+Wire Wire Line
+	550  700  800  700 
+Wire Wire Line
+	2300 1500 1950 1500
+Connection ~ 1950 1500
+Wire Wire Line
+	1950 1500 1950 825 
+Wire Wire Line
+	1425 1900 2300 1900
+Wire Wire Line
+	1850 1250 1425 1250
+Wire Wire Line
+	1500 1150 1425 1150
+Wire Wire Line
+	550  1150 625  1150
+Wire Wire Line
+	550  1250 625  1250
+$Comp
+L veloce:HV_Buck_virtual #PS1
+U 1 1 6147E706
+P 1025 1200
+F 0 "#PS1" H 825 1375 50  0000 C CNB
+F 1 "HVB" H 1275 1350 40  0000 C CNN
+F 2 "" H -25 950 50  0001 L CNN
+F 3 "" H 2075 900 50  0001 L CNN
+	1    1025 1200
+	1    0    0    -1  
+$EndComp
+Text Notes 2175 1300 0    40   ~ 0
+5V
+Text Notes 2150 1400 0    40   ~ 0
+GND
+Text Notes 2150 2100 0    40   ~ 0
+GND
+NoConn ~ 1050 3050
+NoConn ~ 1050 3150
+NoConn ~ 1050 3250
+NoConn ~ 1050 3350
+NoConn ~ 1050 3450
+NoConn ~ 2250 3050
+NoConn ~ 2250 3150
+NoConn ~ 2250 3250
+NoConn ~ 2250 3350
+NoConn ~ 1400 4850
+NoConn ~ 1500 4850
+NoConn ~ 1600 4850
+NoConn ~ 1700 4850
+NoConn ~ 1800 4850
+NoConn ~ 1900 4850
+NoConn ~ 2250 4350
+Text Label 8250 1025 0    30   ~ 0
+OP1
+Text Label 10400 1025 0    30   ~ 0
+OP2
+Text Label 8250 2375 0    30   ~ 0
+OP3
+Text Label 10400 2375 0    30   ~ 0
+OP4
+Text Label 8250 3725 0    30   ~ 0
+OP5
+Text Label 10400 3725 0    30   ~ 0
+OP6
+Text Label 8250 5075 0    30   ~ 0
+OP7
+Text Label 10400 5075 0    30   ~ 0
+OP8
 $EndSCHEMATC

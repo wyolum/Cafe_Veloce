@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name veloce)(type Legacy)(uri ${KIPRJMOD}/veloce.lib)(options "")(descr ""))
-  (lib (name atss)(type Legacy)(uri /home/anool/projects-git/atss_rev3/kicad/libs/atss.lib)(options "")(descr ""))
+  (lib (name veloce-cache)(type Legacy)(uri ${KIPRJMOD}/veloce-cache.lib)(options "")(descr ""))
 )
