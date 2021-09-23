@@ -1784,45 +1784,45 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 6154A6B7
-P 9300 6225
-F 0 "H1" H 9300 6100 50  0000 C CNN
-F 1 "Screw" H 9300 6025 50  0000 C CNN
-F 2 "veloce:MountingHole_3.2mm_M3_Pad_Via" H 9300 6225 50  0001 C CNN
-F 3 "~" H 9300 6225 50  0001 C CNN
-	1    9300 6225
+P 7975 6225
+F 0 "H1" H 7975 6100 50  0000 C CNN
+F 1 "Screw" H 7975 6025 50  0000 C CNN
+F 2 "veloce:MountingHole_3.2mm_M3_Pad_Via" H 7975 6225 50  0001 C CNN
+F 3 "~" H 7975 6225 50  0001 C CNN
+	1    7975 6225
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 6154B1BE
-P 9600 6225
-F 0 "H2" H 9600 6100 50  0000 C CNN
-F 1 "Screw" H 9600 6025 50  0000 C CNN
-F 2 "veloce:MountingHole_3.2mm_M3_Pad_Via" H 9600 6225 50  0001 C CNN
-F 3 "~" H 9600 6225 50  0001 C CNN
-	1    9600 6225
+P 8275 6225
+F 0 "H2" H 8275 6100 50  0000 C CNN
+F 1 "Screw" H 8275 6025 50  0000 C CNN
+F 2 "veloce:MountingHole_3.2mm_M3_Pad_Via" H 8275 6225 50  0001 C CNN
+F 3 "~" H 8275 6225 50  0001 C CNN
+	1    8275 6225
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 6154B340
-P 9900 6225
-F 0 "H3" H 9900 6100 50  0000 C CNN
-F 1 "Screw" H 9900 6025 50  0000 C CNN
-F 2 "veloce:MountingHole_3.2mm_M3_Pad_Via" H 9900 6225 50  0001 C CNN
-F 3 "~" H 9900 6225 50  0001 C CNN
-	1    9900 6225
+P 8575 6225
+F 0 "H3" H 8575 6100 50  0000 C CNN
+F 1 "Screw" H 8575 6025 50  0000 C CNN
+F 2 "veloce:MountingHole_3.2mm_M3_Pad_Via" H 8575 6225 50  0001 C CNN
+F 3 "~" H 8575 6225 50  0001 C CNN
+	1    8575 6225
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 6154B4D2
-P 10200 6225
-F 0 "H4" H 10200 6100 50  0000 C CNN
-F 1 "Screw" H 10200 6025 50  0000 C CNN
-F 2 "veloce:MountingHole_3.2mm_M3_Pad_Via" H 10200 6225 50  0001 C CNN
-F 3 "~" H 10200 6225 50  0001 C CNN
-	1    10200 6225
+P 8875 6225
+F 0 "H4" H 8875 6100 50  0000 C CNN
+F 1 "Screw" H 8875 6025 50  0000 C CNN
+F 2 "veloce:MountingHole_3.2mm_M3_Pad_Via" H 8875 6225 50  0001 C CNN
+F 3 "~" H 8875 6225 50  0001 C CNN
+	1    8875 6225
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -2034,4 +2034,48 @@ Text Label 8250 5075 0    30   ~ 0
 OP7
 Text Label 10400 5075 0    30   ~ 0
 OP8
+$Comp
+L veloce:Logo_Veloce G2
+U 1 1 6157474A
+P 8975 6850
+F 0 "G2" H 8975 6525 60  0001 C CNN
+F 1 "Logo_Veloce" H 8975 7175 60  0001 C CNN
+F 2 "veloce:VR_logo1" H 8975 6850 50  0001 C CNN
+F 3 "" H 8975 6850 50  0001 C CNN
+	1    8975 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L veloce:Logo_Veloce G3
+U 1 1 61576B43
+P 8975 6850
+F 0 "G3" H 8975 6525 60  0001 C CNN
+F 1 "Logo_Veloce" H 8975 7175 60  0001 C CNN
+F 2 "veloce:VR_logo2" H 8975 6850 50  0001 C CNN
+F 3 "" H 8975 6850 50  0001 C CNN
+	1    8975 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L veloce:Logo_Veloce G4
+U 1 1 61579302
+P 8975 6850
+F 0 "G4" H 8975 6525 60  0001 C CNN
+F 1 "Logo_Veloce" H 8975 7175 60  0001 C CNN
+F 2 "veloce:VR_logo3" H 8975 6850 50  0001 C CNN
+F 3 "" H 8975 6850 50  0001 C CNN
+	1    8975 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L veloce:Logo_Veloce G1
+U 1 1 6157F0FB
+P 8975 6850
+F 0 "G1" H 8975 6525 60  0001 C CNN
+F 1 "Logo_Veloce" H 8975 7175 60  0001 C CNN
+F 2 "veloce:VR_logo" H 8975 6850 50  0001 C CNN
+F 3 "" H 8975 6850 50  0001 C CNN
+	1    8975 6850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
