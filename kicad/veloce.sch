@@ -585,48 +585,15 @@ Text Label 3025 1300 0    40   ~ 0
 Text Label 3025 2100 0    40   ~ 0
 GND
 $Comp
-L veloce:Screw_Terminal_01x02 J9
+L veloce:Screw_Terminal_01x16 J9
 U 1 1 617B0E01
-P 2775 700
-F 0 "J9" H 2850 700 50  0000 L CNB
-F 1 "PWR" H 2975 600 40  0001 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 700 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/691137710002.pdf" H 2775 700 50  0001 C CNN
-F 4 "691137710002" H 2775 700 50  0001 C CNN "PN"
-	1    2775 700 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L veloce:Screw_Terminal_01x02 J10
-U 1 1 617D3132
-P 2775 900
-F 0 "J10" H 2850 900 50  0000 L CNB
-F 1 "PWR" H 2975 800 40  0001 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 900 50  0001 C CNN
-F 3 "~" H 2775 900 50  0001 C CNN
-	1    2775 900 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L veloce:Screw_Terminal_01x02 J16
-U 1 1 614A67B5
-P 2775 2100
-F 0 "J16" H 2850 2100 50  0000 L CNB
-F 1 "Brake" H 3275 2025 40  0000 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 2100 50  0001 C CNN
-F 3 "~" H 2775 2100 50  0001 C CNN
-	1    2775 2100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L veloce:Screw_Terminal_01x02 J15
-U 1 1 614A5EE9
-P 2775 1900
-F 0 "J15" H 2850 1900 50  0000 L CNB
-F 1 "PWR" H 2975 1800 40  0001 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 1900 50  0001 C CNN
-F 3 "~" H 2775 1900 50  0001 C CNN
-	1    2775 1900
+P 2775 1400
+F 0 "J9" H 2850 2175 50  0000 L CNB
+F 1 "PWR" H 2975 1300 40  0001 L CNN
+F 2 "veloce:TerminalBlock_Wurth_1377-16_Horizontal" H 2775 1400 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/691137710002.pdf" H 2775 1400 50  0001 C CNN
+F 4 "691137710002" H 2775 1400 50  0001 C CNN "PN"
+	1    2775 1400
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -641,56 +608,12 @@ F 3 "~" H 1300 6675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L veloce:Screw_Terminal_01x02 J14
-U 1 1 61B0998B
-P 2775 1700
-F 0 "J14" H 2850 1700 50  0000 L CNB
-F 1 "PWR" H 2975 1600 40  0001 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 1700 50  0001 C CNN
-F 3 "~" H 2775 1700 50  0001 C CNN
-	1    2775 1700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L veloce:Screw_Terminal_01x02 J13
-U 1 1 617E33B9
-P 2775 1500
-F 0 "J13" H 2850 1500 50  0000 L CNB
-F 1 "PWR" H 2975 1400 40  0001 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 1500 50  0001 C CNN
-F 3 "~" H 2775 1500 50  0001 C CNN
-	1    2775 1500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L veloce:Screw_Terminal_01x02 J12
-U 1 1 617E2E21
-P 2775 1300
-F 0 "J12" H 2850 1300 50  0000 L CNB
-F 1 "PWR" H 2975 1200 40  0001 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 1300 50  0001 C CNN
-F 3 "~" H 2775 1300 50  0001 C CNN
-	1    2775 1300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L veloce:Screw_Terminal_01x02 J11
-U 1 1 617D342A
-P 2775 1100
-F 0 "J11" H 2850 1100 50  0000 L CNB
-F 1 "PWR" H 2975 1000 40  0001 L CNN
-F 2 "veloce:TerminalBlock_Wurth_1377-2_Horizontal" H 2775 1100 50  0001 C CNN
-F 3 "~" H 2775 1100 50  0001 C CNN
-	1    2775 1100
-	-1   0    0    -1  
-$EndComp
-$Comp
 L veloce:R R20
 U 1 1 61673E32
 P 5850 6075
 F 0 "R20" V 5950 6000 50  0000 L CNB
 F 1 "22k" V 5850 6000 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5780 6075 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 5780 6075 50  0001 C CNN
 F 3 "~" H 5850 6075 50  0001 C CNN
 	1    5850 6075
 	1    0    0    -1  
@@ -701,7 +624,7 @@ U 1 1 61673602
 P 5650 6075
 F 0 "R19" V 5750 6000 50  0000 L CNB
 F 1 "22k" V 5650 6000 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5580 6075 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 5580 6075 50  0001 C CNN
 F 3 "~" H 5650 6075 50  0001 C CNN
 	1    5650 6075
 	1    0    0    -1  
@@ -712,7 +635,7 @@ U 1 1 6167327C
 P 4125 6075
 F 0 "R18" V 4225 6000 50  0000 L CNB
 F 1 "22k" V 4125 6000 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4055 6075 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 4055 6075 50  0001 C CNN
 F 3 "~" H 4125 6075 50  0001 C CNN
 	1    4125 6075
 	1    0    0    -1  
@@ -723,7 +646,7 @@ U 1 1 6162390F
 P 3925 6075
 F 0 "R17" V 4025 6000 50  0000 L CNB
 F 1 "22k" V 3925 6000 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3855 6075 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 3855 6075 50  0001 C CNN
 F 3 "~" H 3925 6075 50  0001 C CNN
 	1    3925 6075
 	1    0    0    -1  
@@ -1244,7 +1167,7 @@ U 1 1 6185D09E
 P 3200 4250
 F 0 "R21" V 3100 4175 50  0000 L CNB
 F 1 "10k" V 3200 4175 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3130 4250 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 3130 4250 50  0001 C CNN
 F 3 "~" H 3200 4250 50  0001 C CNN
 	1    3200 4250
 	0    -1   -1   0   
@@ -1699,7 +1622,7 @@ U 1 1 62987481
 P 5175 1675
 F 0 "R22" V 5075 1600 50  0000 L CNB
 F 1 "10k" V 5175 1600 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5105 1675 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 5105 1675 50  0001 C CNN
 F 3 "~" H 5175 1675 50  0001 C CNN
 	1    5175 1675
 	0    -1   -1   0   
@@ -1710,7 +1633,7 @@ U 1 1 6298B3A5
 P 6525 1675
 F 0 "R23" V 6425 1600 50  0000 L CNB
 F 1 "10k" V 6525 1600 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6455 1675 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 6455 1675 50  0001 C CNN
 F 3 "~" H 6525 1675 50  0001 C CNN
 	1    6525 1675
 	0    -1   -1   0   
@@ -1721,7 +1644,7 @@ U 1 1 6298BE0A
 P 5175 2275
 F 0 "R24" V 5075 2200 50  0000 L CNB
 F 1 "10k" V 5175 2200 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5105 2275 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 5105 2275 50  0001 C CNN
 F 3 "~" H 5175 2275 50  0001 C CNN
 	1    5175 2275
 	0    -1   -1   0   
@@ -1732,7 +1655,7 @@ U 1 1 6298C53D
 P 6525 2275
 F 0 "R25" V 6425 2200 50  0000 L CNB
 F 1 "10k" V 6525 2200 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6455 2275 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 6455 2275 50  0001 C CNN
 F 3 "~" H 6525 2275 50  0001 C CNN
 	1    6525 2275
 	0    -1   -1   0   
@@ -1743,7 +1666,7 @@ U 1 1 6298CC87
 P 6525 2875
 F 0 "R27" V 6425 2800 50  0000 L CNB
 F 1 "10k" V 6525 2800 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6455 2875 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 6455 2875 50  0001 C CNN
 F 3 "~" H 6525 2875 50  0001 C CNN
 	1    6525 2875
 	0    -1   -1   0   
@@ -1754,7 +1677,7 @@ U 1 1 6298E310
 P 5175 2875
 F 0 "R26" V 5075 2800 50  0000 L CNB
 F 1 "10k" V 5175 2800 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5105 2875 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 5105 2875 50  0001 C CNN
 F 3 "~" H 5175 2875 50  0001 C CNN
 	1    5175 2875
 	0    -1   -1   0   
@@ -1765,7 +1688,7 @@ U 1 1 6298EEED
 P 5175 3475
 F 0 "R28" V 5075 3400 50  0000 L CNB
 F 1 "10k" V 5175 3400 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5105 3475 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 5105 3475 50  0001 C CNN
 F 3 "~" H 5175 3475 50  0001 C CNN
 	1    5175 3475
 	0    -1   -1   0   
@@ -1776,7 +1699,7 @@ U 1 1 6298FB8F
 P 6525 3475
 F 0 "R29" V 6425 3400 50  0000 L CNB
 F 1 "10k" V 6525 3400 40  0000 L CNN
-F 2 "veloce:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6455 3475 50  0001 C CNN
+F 2 "veloce:r_0805_THT" V 6455 3475 50  0001 C CNN
 F 3 "~" H 6525 3475 50  0001 C CNN
 	1    6525 3475
 	0    -1   -1   0   
@@ -2040,7 +1963,7 @@ U 1 1 6157474A
 P 8975 6850
 F 0 "G2" H 8975 6525 60  0001 C CNN
 F 1 "Logo_Veloce" H 8975 7175 60  0001 C CNN
-F 2 "veloce:VR_logo1" H 8975 6850 50  0001 C CNN
+F 2 "veloce:VR_logo5" H 8975 6850 50  0001 C CNN
 F 3 "" H 8975 6850 50  0001 C CNN
 	1    8975 6850
 	1    0    0    -1  
@@ -2073,9 +1996,11 @@ U 1 1 6157F0FB
 P 8975 6850
 F 0 "G1" H 8975 6525 60  0001 C CNN
 F 1 "Logo_Veloce" H 8975 7175 60  0001 C CNN
-F 2 "veloce:VR_logo" H 8975 6850 50  0001 C CNN
+F 2 "veloce:VR_logo4" H 8975 6850 50  0001 C CNN
 F 3 "" H 8975 6850 50  0001 C CNN
 	1    8975 6850
 	1    0    0    -1  
 $EndComp
+Text Notes 2075 2200 0    40   ~ 0
+BRAKE
 $EndSCHEMATC
