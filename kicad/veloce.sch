@@ -695,7 +695,7 @@ F 1 "10k" V 9700 5450 40  0000 L CNN
 F 2 "veloce:R_0805_2012Metric" V 9630 5525 50  0001 C CNN
 F 3 "~" H 9700 5525 50  0001 C CNN
 	1    9700 5525
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L veloce:MOSFET-N Q8
@@ -752,7 +752,7 @@ F 1 "10k" V 9700 4100 40  0000 L CNN
 F 2 "veloce:R_0805_2012Metric" V 9630 4175 50  0001 C CNN
 F 3 "~" H 9700 4175 50  0001 C CNN
 	1    9700 4175
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L veloce:MOSFET-N Q6
@@ -809,7 +809,7 @@ F 1 "10k" V 9700 2750 40  0000 L CNN
 F 2 "veloce:R_0805_2012Metric" V 9630 2825 50  0001 C CNN
 F 3 "~" H 9700 2825 50  0001 C CNN
 	1    9700 2825
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L veloce:MOSFET-N Q4
@@ -866,7 +866,7 @@ F 1 "10k" V 9700 1400 40  0000 L CNN
 F 2 "veloce:R_0805_2012Metric" V 9630 1475 50  0001 C CNN
 F 3 "~" H 9700 1475 50  0001 C CNN
 	1    9700 1475
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L veloce:MOSFET-N Q2
@@ -923,7 +923,7 @@ F 1 "10k" V 7550 5450 40  0000 L CNN
 F 2 "veloce:R_0805_2012Metric" V 7480 5525 50  0001 C CNN
 F 3 "~" H 7550 5525 50  0001 C CNN
 	1    7550 5525
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L veloce:MOSFET-N Q7
@@ -980,7 +980,7 @@ F 1 "10k" V 7550 4100 40  0000 L CNN
 F 2 "veloce:R_0805_2012Metric" V 7480 4175 50  0001 C CNN
 F 3 "~" H 7550 4175 50  0001 C CNN
 	1    7550 4175
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L veloce:MOSFET-N Q5
@@ -1037,7 +1037,7 @@ F 1 "10k" V 7550 2750 40  0000 L CNN
 F 2 "veloce:R_0805_2012Metric" V 7480 2825 50  0001 C CNN
 F 3 "~" H 7550 2825 50  0001 C CNN
 	1    7550 2825
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L veloce:MOSFET-N Q3
@@ -1094,7 +1094,7 @@ F 1 "10k" V 7550 1400 40  0000 L CNN
 F 2 "veloce:R_0805_2012Metric" V 7480 1475 50  0001 C CNN
 F 3 "~" H 7550 1475 50  0001 C CNN
 	1    7550 1475
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L veloce:MOSFET-N Q1
@@ -1170,7 +1170,7 @@ F 1 "10k" V 3200 4175 40  0000 L CNN
 F 2 "veloce:r_0805_THT" V 3130 4250 50  0001 C CNN
 F 3 "~" H 3200 4250 50  0001 C CNN
 	1    3200 4250
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Text Label 3500 4550 2    40   ~ 0
 GND
@@ -1625,7 +1625,7 @@ F 1 "10k" V 5175 1600 40  0000 L CNN
 F 2 "veloce:r_0805_THT" V 5105 1675 50  0001 C CNN
 F 3 "~" H 5175 1675 50  0001 C CNN
 	1    5175 1675
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L veloce:R R23
@@ -1647,7 +1647,7 @@ F 1 "10k" V 5175 2200 40  0000 L CNN
 F 2 "veloce:r_0805_THT" V 5105 2275 50  0001 C CNN
 F 3 "~" H 5175 2275 50  0001 C CNN
 	1    5175 2275
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L veloce:R R25
@@ -1680,7 +1680,7 @@ F 1 "10k" V 5175 2800 40  0000 L CNN
 F 2 "veloce:r_0805_THT" V 5105 2875 50  0001 C CNN
 F 3 "~" H 5175 2875 50  0001 C CNN
 	1    5175 2875
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L veloce:R R28
@@ -1691,7 +1691,7 @@ F 1 "10k" V 5175 3400 40  0000 L CNN
 F 2 "veloce:r_0805_THT" V 5105 3475 50  0001 C CNN
 F 3 "~" H 5175 3475 50  0001 C CNN
 	1    5175 3475
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L veloce:R R29
@@ -2003,4 +2003,59 @@ F 3 "" H 8975 6850 50  0001 C CNN
 $EndComp
 Text Notes 2075 2200 0    40   ~ 0
 BRAKE
+$Comp
+L veloce:Logo_OSHW G7
+U 1 1 616DFC4B
+P 10800 7000
+F 0 "G7" H 10800 6950 40  0001 C CNN
+F 1 "Logo_OSHW" H 10800 7100 40  0001 C CNN
+F 2 "veloce:Logo_OSHW-11.4x12mm_SilkScreen" H 10800 7000 60  0001 C CNN
+F 3 "" H 10800 7000 60  0000 C CNN
+	1    10800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L veloce:LOGO_WL G5
+U 1 1 616EBDBF
+P 7900 6700
+F 0 "G5" H 7900 6564 60  0001 C CNN
+F 1 "LOGO_WL" H 7900 6836 60  0001 C CNN
+F 2 "veloce:logo_butterfly_silk_15x12" H 7900 6700 60  0001 C CNN
+F 3 "" H 7900 6700 60  0001 C CNN
+	1    7900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L veloce:LOGO_WL G6
+U 1 1 6151078E
+P 7900 6700
+F 0 "G6" H 7900 6564 60  0001 C CNN
+F 1 "LOGO_WL" H 7900 6836 60  0001 C CNN
+F 2 "veloce:logo_butterfly_mask_15x12" H 7900 6700 60  0001 C CNN
+F 3 "" H 7900 6700 60  0001 C CNN
+	1    7900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L veloce:Logo_Wyolum G8
+U 1 1 6154CB45
+P 7275 6675
+F 0 "G8" H 7275 6585 60  0001 C CNN
+F 1 "Logo_Wyolum" H 7275 6765 60  0001 C CNN
+F 2 "veloce:logo_wyolum_silk_20x8" H 7275 6675 50  0001 C CNN
+F 3 "" H 7275 6675 50  0001 C CNN
+	1    7275 6675
+	1    0    0    -1  
+$EndComp
+$Comp
+L veloce:Logo_Wyolum G9
+U 1 1 61594C76
+P 7275 6675
+F 0 "G9" H 7275 6585 60  0001 C CNN
+F 1 "Logo_Wyolum" H 7275 6765 60  0001 C CNN
+F 2 "veloce:logo_wyolum_mask_20x8" H 7275 6675 50  0001 C CNN
+F 3 "" H 7275 6675 50  0001 C CNN
+	1    7275 6675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

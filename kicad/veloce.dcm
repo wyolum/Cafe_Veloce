@@ -83,6 +83,18 @@ D 72 VDC DC/DC Converter Module, Single Output Voltage 12V, 10A
 K POWER DC/DC Converter module
 $ENDCMP
 #
+$CMP Logo_Open_Hardware_Large
+D Open Hardware logo, large
+K Logo
+F ~
+$ENDCMP
+#
+$CMP Logo_Open_Hardware_Small
+D Open Hardware logo, small
+K Logo
+F ~
+$ENDCMP
+#
 $CMP MOSFET-N
 D Generic Mosfet N-channel
 K N-Channel MOSFET
