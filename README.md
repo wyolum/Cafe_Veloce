@@ -1,5 +1,6 @@
 # Cafe_Veloce
 Controller board for eBicycle lighting
+![Logo](https://github.com/wyolum/Cafe_Veloce/blob/main/fabricate/logo.png)
 
 **Renders**
 ![Cafe Veloce](https://github.com/wyolum/Cafe_Veloce/blob/main/kicad/renders/veloce01.png)
