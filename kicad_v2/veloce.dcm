@@ -1,0 +1,193 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Adafruit_HUZZAH_ESP32_breakout_physical
+D 32-bit microcontroller module with WiFi
+K ESP8266 WiFi microcontroller
+F https://www.adafruit.com/product/2471
+$ENDCMP
+#
+$CMP Adafruit_HUZZAH_ESP8266_breakout_logical
+D 32-bit microcontroller module with WiFi
+K ESP8266 WiFi microcontroller
+F https://www.adafruit.com/product/2471
+$ENDCMP
+#
+$CMP Adafruit_HUZZAH_ESP8266_breakout_physical
+D 32-bit microcontroller module with WiFi
+K ESP8266 WiFi microcontroller
+F https://www.adafruit.com/product/2471
+$ENDCMP
+#
+$CMP Battery
+D Multiple-cell battery
+K batt voltage-source cell
+F ~
+$ENDCMP
+#
+$CMP Battery_virtual
+D Multiple-cell battery
+K batt voltage-source cell
+F ~
+$ENDCMP
+#
+$CMP CONN_1
+D 1 pin
+K CONN
+$ENDCMP
+#
+$CMP Conn_02x08_Odd_Even
+D Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Small
+D Schottky diode, small symbol
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP ESP32-mini_D1
+D RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48
+K RF Radio BT ESP ESP32 Espressif external antenna
+$ENDCMP
+#
+$CMP FQP27P06
+D -27A Id, -60V Vds, QFET P-Channel MOSFET, TO-220
+K QFET P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FQP27P06-D.PDF
+$ENDCMP
+#
+$CMP FQP27P06_copy
+D -27A Id, -60V Vds, QFET P-Channel MOSFET, TO-220
+K QFET P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FQP27P06-D.PDF
+$ENDCMP
+#
+$CMP HV_Buck
+D 72 VDC DC/DC Converter Module, Single Output Voltage 12V, 10A
+K POWER DC/DC Converter module
+$ENDCMP
+#
+$CMP HV_Buck_virtual
+D 72 VDC DC/DC Converter Module, Single Output Voltage 12V, 10A
+K POWER DC/DC Converter module
+$ENDCMP
+#
+$CMP Hole_npth
+D 1 pin
+K CONN
+$ENDCMP
+#
+$CMP IRF4905
+D -74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB
+K Single P-Channel HEXFET Power MOSFET
+F http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c
+$ENDCMP
+#
+$CMP IRF4905_copy
+D -74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB
+K Single P-Channel HEXFET Power MOSFET
+F http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c
+$ENDCMP
+#
+$CMP IRF9540N
+D -23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220
+K P-Channel MOSFET HEXFET
+F http://www.irf.com/product-info/datasheets/data/irf9540n.pdf
+$ENDCMP
+#
+$CMP Jumper_3_Open
+D Jumper, 3-pole, both open
+K Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LV_Buck
+D 72 VDC DC/DC Converter Module, Single Output Voltage 12V, 10A
+K POWER DC/DC Converter module
+$ENDCMP
+#
+$CMP LV_Buck_virtual
+D 72 VDC DC/DC Converter Module, Single Output Voltage 12V, 10A
+K POWER DC/DC Converter module
+$ENDCMP
+#
+$CMP Logo_Open_Hardware_Large
+D Open Hardware logo, large
+K Logo
+F ~
+$ENDCMP
+#
+$CMP Logo_Open_Hardware_Small
+D Open Hardware logo, small
+K Logo
+F ~
+$ENDCMP
+#
+$CMP MOSFET-N
+D Generic Mosfet N-channel
+K N-Channel MOSFET
+$ENDCMP
+#
+$CMP MOSFET-P
+D -23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220
+K P-Channel MOSFET HEXFET
+F http://www.irf.com/product-info/datasheets/data/irf9540n.pdf
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_Network08_Split
+D 8 resistor network, star topology, bussed resistors, split
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network08_Split2
+D 8 resistor network, star topology, bussed resistors, split
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP Screw_Terminal_01x02
+D Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F https://www.we-online.de/katalog/datasheet/691137710002.pdf
+$ENDCMP
+#
+$CMP Screw_Terminal_01x16
+D Generic screw terminal, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP USB_A
+D USB Type A connector
+K connector USB
+F  ~
+$ENDCMP
+#
+$CMP USB_A_stacked
+D USB Type A connector
+K connector USB
+F https://www.alliedcomponents.com/storage/rj45/pdfs/ausb2-4599.pdf
+$ENDCMP
+#
+$CMP USB_C_Receptacle_USB2.0
+D USB 2.0-only Type-C Receptacle connector
+K usb universal serial bus type-C USB2.0
+F https://www.cuidevices.com/product/resource/digikeypdf/ujc-hp-g-smt-tr.pdf
+$ENDCMP
+#
+#End Doc Library
