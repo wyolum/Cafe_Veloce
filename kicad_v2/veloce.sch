@@ -1075,7 +1075,7 @@ Wire Wire Line
 Wire Wire Line
 	3725 2100 3325 2100
 Wire Wire Line
-	3725 2100 4125 2100
+	3725 2100 3925 2100
 Wire Wire Line
 	4525 2100 4525 2000
 Connection ~ 3725 2100
@@ -1083,7 +1083,7 @@ Wire Wire Line
 	4125 2000 4125 2100
 Connection ~ 4125 2100
 Wire Wire Line
-	4125 2100 4525 2100
+	4125 2100 4325 2100
 Wire Wire Line
 	3725 1350 3725 1300
 Wire Wire Line
@@ -1248,4 +1248,66 @@ Connection ~ 3725 1300
 Connection ~ 3325 2100
 Text Label 1675 2175 2    40   ~ 0
 GND
+$Comp
+L veloce:CONN_1 P10
+U 1 1 61BF2826
+P 3725 2250
+F 0 "P10" V 3775 2275 40  0000 R CNN
+F 1 "CONN_1" H 3725 2305 30  0001 C CNN
+F 2 "veloce:TestPoint_THTPad_D3.0mm_Drill1.5mm" H 3725 2250 60  0001 C CNN
+F 3 "" H 3725 2250 60  0000 C CNN
+	1    3725 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L veloce:CONN_1 P12
+U 1 1 61BF3CDC
+P 4125 2250
+F 0 "P12" V 4175 2275 40  0000 R CNN
+F 1 "CONN_1" H 4125 2305 30  0001 C CNN
+F 2 "veloce:TestPoint_THTPad_D3.0mm_Drill1.5mm" H 4125 2250 60  0001 C CNN
+F 3 "" H 4125 2250 60  0000 C CNN
+	1    4125 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L veloce:CONN_1 P14
+U 1 1 61BF4577
+P 4525 2250
+F 0 "P14" V 4575 2275 40  0000 R CNN
+F 1 "CONN_1" H 4525 2305 30  0001 C CNN
+F 2 "veloce:TestPoint_THTPad_D3.0mm_Drill1.5mm" H 4525 2250 60  0001 C CNN
+F 3 "" H 4525 2250 60  0000 C CNN
+	1    4525 2250
+	0    1    1    0   
+$EndComp
+Connection ~ 4525 2100
+$Comp
+L veloce:CONN_1 P13
+U 1 1 61BF4C3F
+P 4325 2250
+F 0 "P13" V 4375 2275 40  0000 R CNN
+F 1 "CONN_1" H 4325 2305 30  0001 C CNN
+F 2 "veloce:TestPoint_THTPad_D3.0mm_Drill1.5mm" H 4325 2250 60  0001 C CNN
+F 3 "" H 4325 2250 60  0000 C CNN
+	1    4325 2250
+	0    1    1    0   
+$EndComp
+Connection ~ 4325 2100
+Wire Wire Line
+	4325 2100 4525 2100
+$Comp
+L veloce:CONN_1 P11
+U 1 1 61BF51C8
+P 3925 2250
+F 0 "P11" V 3975 2275 40  0000 R CNN
+F 1 "CONN_1" H 3925 2305 30  0001 C CNN
+F 2 "veloce:TestPoint_THTPad_D3.0mm_Drill1.5mm" H 3925 2250 60  0001 C CNN
+F 3 "" H 3925 2250 60  0000 C CNN
+	1    3925 2250
+	0    1    1    0   
+$EndComp
+Connection ~ 3925 2100
+Wire Wire Line
+	3925 2100 4125 2100
 $EndSCHEMATC
