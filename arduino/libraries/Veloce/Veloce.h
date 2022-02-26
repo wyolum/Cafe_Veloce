@@ -52,6 +52,7 @@ const int BRAKE_OUT = OUT_4;
 
 #ifndef ESP8266
 const int HORN_IN = IN_3;
+const int LIGHTS_IN = IN_5;
 const int HORN_OUT = OUT_2;
 const int LEFT_OUT = OUT_5;
 #else
