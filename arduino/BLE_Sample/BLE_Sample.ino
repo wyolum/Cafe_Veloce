@@ -14,7 +14,7 @@
 #define SERVICE_UUID        "4fafc201-1fb5-459e-8fcc-c5c9c331914b"
 #define CHARACTERISTIC_UUID "beb5483e-36e1-4688-b7f5-ea07361b26a8"
 int LightState = 0;
-#define LIGHTPIN OUT_1
+#define LIGHTPIN OUT_8
 
 class MyCallbacks: public BLECharacteristicCallbacks {
     void onWrite(BLECharacteristic *pCharacteristic) {
@@ -63,6 +63,7 @@ void setup() {
 
   BLEAdvertising *pAdvertising = pServer->getAdvertising();
   pAdvertising->start();
+  Serial.println("Available");
 }
 
 void loop() {

@@ -1,12 +1,12 @@
 $fn=50;
-module guide(D){
+module guide(h, D){
 difference(){
-  color("grey")linear_extrude(height=9) import("cable_guide_0.dxf");
+  color("grey")linear_extrude(height=h) import("cable_guide_0.dxf");
   translate([0, 0, -1])
-    cylinder(h=11, d=D);
+    cylinder(h=h+2, d=D);
 }
 }
-guide(5.3);
+guide(15, 7.5);
 //cylinder(h=11, d=6.7);
 //cylinder(h=11, d=6.8);
 

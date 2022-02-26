@@ -22,7 +22,7 @@ void setup() {
   while(1){
     for(int ii=0; ii < 8; ii++){
       digitalWrite(OUT_PINS[ii], HIGH);
-      delay(1000);
+      delay(500);
       digitalWrite(OUT_PINS[ii], LOW);
     }
   }
