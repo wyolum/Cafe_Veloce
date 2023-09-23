@@ -1,9 +1,9 @@
 #include <Veloce.h>
 
 void setup() {
-  pinMode(LEFT_IN, INPUT_PULLUP);
-  pinMode(RIGHT_IN, INPUT_PULLUP);
-  pinMode(BRAKE_IN, INPUT_PULLUP);
+  for(int ii = 0; ii < 8; ii++){
+    pinMode(IN_PINS[ii], INPUT);
+  }
 
   pinMode(BUILTIN_LED, OUTPUT); // DBG
   
@@ -12,10 +12,9 @@ void setup() {
 }
 
 void loop(){
-  Serial.print(digitalRead(LEFT_IN));
-  Serial.print(digitalRead(RIGHT_IN));
-  Serial.print(digitalRead(BRAKE_IN));
-
+  for(int ii = 0; ii < 8; ii++){
+    Serial.print(digitalRead(IN_PINS[ii]));
+  }
   Serial.println();
   digitalWrite(BUILTIN_LED, HIGH);
   delay(500);

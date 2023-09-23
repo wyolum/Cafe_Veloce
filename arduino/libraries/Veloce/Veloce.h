@@ -27,16 +27,17 @@ const int OUT_PINS[N_OUT] = {OUT_1, OUT_2, OUT_3, OUT_4, OUT_5, OUT_6, OUT_7, OU
 const int LIGHTS_IN = IN_1;
 const int LIGHTS_OUT = OUT_1;
 
-const int RIGHT_IN = IN_2;
-const int RIGHT_OUT = OUT_2;
-
-const int LEFT_IN  = IN_3;
+const int LEFT_IN = IN_2;
 const int LEFT_OUT = OUT_3;
 
-const int BRAKE_IN = IN_4;
-const int BRAKE_OUT = OUT_4;
+const int RIGHT_IN  = IN_3;
+const int RIGHT_OUT = OUT_4;
 
-const int HORN_IN = IN_5;
-const int HORN_OUT = OUT_5;
+const int BRAKE_IN = IN_5;
+const int BRAKE_OUT = OUT_2;
+const int PULSE_BRAKE_OUT = OUT_5;
+
+const int HORN_IN = IN_6;
+const int HORN_OUT = OUT_6;
 
 
